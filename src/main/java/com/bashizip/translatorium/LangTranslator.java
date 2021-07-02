@@ -6,12 +6,16 @@
 package com.bashizip.translatorium;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -31,8 +35,11 @@ import org.xml.sax.SAXException;
  */
 public class LangTranslator {
 
-    static void init() {
+    public static void main(String[] args) throws Exception {
+        File f = translate("en", "fr", "en.lang");
 
+        System.out.println("FINISHED !");
+        System.out.println("Output file : " + f.getAbsolutePath());
     }
 
     public static File translate(String langFrom, String langTo, String sourceFile) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException, TransformerException {
@@ -54,19 +61,32 @@ public class LangTranslator {
         NodeList nodes = (NodeList) xpath.evaluate(attribute, input, XPathConstants.NODESET);
 
         //replace values
+        System.out.println("Total nodes to translate from " + langFrom + " to " + langTo + ":" + nodes.getLength());
+        int count=0;
         for (int i = 0; i < nodes.getLength(); i++) {
             Node textAttrib = nodes.item(i).getAttributes().getNamedItem("Text");
             String val = textAttrib.getNodeValue();
             String newValue = Translatorium.translate(langFrom, langTo, val);
             System.out.println(val + " translated to " + newValue);
             textAttrib.setNodeValue(newValue);
+            count++;
+            System.out.println("--> " + 100*count/nodes.getLength()+ "%");
         }
 
-        Transformer xformer = TransformerFactory.newInstance().newTransformer();
-        xformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-        xformer.transform(new DOMSource(input), new StreamResult(translatedFile));
-
+        writeToOutputStream(input, new FileOutputStream(translatedFile));
         return translatedFile;
+    }
+
+    private static void writeToOutputStream(Document fDoc, OutputStream out) throws UnsupportedEncodingException, IOException, TransformerException, TransformerConfigurationException {
+        fDoc.setXmlStandalone(true);
+        DOMSource docSource = new DOMSource(fDoc);
+        Transformer transformer = TransformerFactory.newInstance().newTransformer();
+        transformer.setOutputProperty(OutputKeys.METHOD, "xml");
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+        transformer.setOutputProperty(OutputKeys.INDENT, "no");
+        out.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>".getBytes("UTF-8"));
+        transformer.transform(docSource, new StreamResult(out));
     }
 
 }
