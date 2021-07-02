@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?><Language code="fr" name="Français">
+  <Buttons>
+    <Yes Text="Oui"/>
+    <Ok Text="d'accord"/>
+    <No Text="Non"/>
+    <Cancel Text="Annuler"/>
+    <Save Text="Sauvegarder"/>
+    <Close Text="Fermer"/>
+    <Add Text="Ajouter"/>
+    <New Text="Nouveau"/>
+    <Edit Text="Éditer"/>
+    <Cut Text="Couper"/>
+    <Copy Text="Copie"/>
+    <Paste Text="Coller"/>
+    <Delete Text="Effacer"/>
+    <Refresh Text="Rafraîchir"/>
+    <Login Text="CONNEXION"/>
+    <Logout Text="Déconnexion"/>
+    <Print Text="Imprimer"/>
+    <Pdf Text="PDF"/>
+    <SavePdf Text="Enregistrer en PDF"/>
+    <Excel Text="Excel"/>
+    <Hide Text="Cacher"/>
+    <FirstPage Text="Première page"/>
+    <LastPage Text="Dernière page"/>
+    <NextPage Text="Page suivante"/>
+    <PreviousPage Text="Page précédente"/>
+    <Continue Text="Continuer"/>
+    <Clear Text="Dégager"/>
+    <Exit Text="Sortir"/>
+    <Search Text="Rechercher"/>
+    <Ignore Text="Ignorer"/>
+    <Retry Text="Réessayez"/>
+    <DeleteAll Text="Tout supprimer"/>
+    <Skip Text="Sauter"/>
+    <Restart Text="Redémarrer"/>
+    <SaveAndClose Text="Sauvegarder et fermer"/>
+    <Help Text="Aider"/>
+    <Back Text="Dos"/>
+    <LearnMore Text="Apprendre encore plus"/>
+    <Done Text="Fait"/>
+    <Send Text="Envoyer"/>
+    <WhatsThis Text="Qu'est-ce que c'est ça?"/>
+    <Maximize Text="Maximiser"/>
+    <Restore Text="Restaurer"/>
+    <Browse Text="Parcourir"/>
+  </Buttons>
+  <Bootstrap>
+    <Initializing Text="Initialisation de l'application..."/>
+    <Load>
+      <Components Text="Chargement des composants de l'application..."/>
+      <Modules Text="Chargement et initialisation des modules..."/>
+      <Products Text="Chargement des produits...">
+        <Error Text="Erreur de chargement des produits.">
+          <Info Text="Certains produits peuvent ne pas être éligibles à la vente. Vérifiez les produits ayant échoué et réessayez."/>
+          <DuplicateBarcode Text="Code à barres en double &amp;quot;{0}&amp;quot;"/>
+          <DuplicateCode Text="Code en double &amp;quot;{0}&amp;quot;"/>
+          <Copy Text="Copier dans le presse-papier"/>
+        </Error>
+      </Products>
+      <CashRegister Text="Chargement des données de la caisse..."/>
+      <ScanTypes Text="Types de numérisation..."/>
+    </Load>
+    <Connect Text="Connexion à la base de données...">
+      <NoDataProvider Text="Module de connexion à la base de données indisponible.\nVeuillez contacter votre administrateur."/>
+    </Connect>
+    <Error Text="Une erreur s'est produite lors de la tentative de démarrage de l'application. Veuillez contacter l'administrateur système."/>
+    <Completed Text="Lancer l'application"/>
+    <BackupDatabase Text="Validation de la version de la base de données..."/>
+    <Migrations Text="Vérification de la base de données...">
+      <Failed Text="Échec de la migration de la base de données !"/>
+    </Migrations>
+    <RestartRequired Text="Le redémarrage de l'application est requis pour que les modifications prennent effet.\nCliquez sur le bouton ci-dessous pour redémarrer l'application."/>
+    <ValidateLicense Text="Validation de la licence..."/>
+    <Onboarding Text="Vérifier le statut d'intégration..."/>
+    <CustomerDisplay Text="Initialisation de l'affichage client..."/>
+    <PrinterStatus Text="Vérifier l'état de l'imprimante..."/>
+    <VerifyVersion Text="Vérification de la version de l'application..."/>
+  </Bootstrap>
+  <Onboarding>
+    <Welcome Text="Bienvenue">
+      <Info Text="Configurons votre boutique et les données de base de votre application.\nLe processus d'intégration ne prendra que quelques minutes."/>
+      <Start Text="DÉMARRER"/>
+    </Welcome>
+    <Back Text="Dos"/>
+    <Skip Text="Passer l'intégration"/>
+    <Hide Text="Ne plus montrer ça"/>
+    <Next Text="Sauter"/>
+    <Continue Text="Enregistrer continuer"/>
+    <PriceDisplay Text="Affichage des prix">
+      <Info Text="Choisissez si les prix sont affichés et imprimés avant ou après taxes"/>
+      <BeforeTax Text="Avant impôt">
+        <Description Text="Les prix seront affichés et imprimés sur le ticket de caisse hors taxes"/>
+      </BeforeTax>
+      <AfterTax Text="Après impôts">
+        <Description Text="Les prix seront affichés et imprimés dans le reçu avec les taxes incluses"/>
+      </AfterTax>
+      <DiscountApplyRule>
+        <Info Text="Les rabais seront appliqués avant ou après taxes en fonction de cette sélection. Vous pouvez modifier les règles de remise dans les paramètres à tout moment."/>
+      </DiscountApplyRule>
+    </PriceDisplay>
+    <Layout Text="Choisissez la mise en page">
+      <LearnMore Text="En savoir plus sur les mises en page et l'espace de travail"/>
+      <Standard Text="Standard">
+        <Description Text="Utilisez cette disposition si vous utilisez des codes-barres ou si un clavier physique est connecté à votre ordinateur."/>
+      </Standard>
+      <TouchScreen Text="Visuel">
+        <Description Text="Utilisez cette mise en page si vous souhaitez afficher visuellement vos produits et groupes sur l'écran de vente."/>
+      </TouchScreen>
+      <EnableVirtualKeyboard Text="Activer le clavier virtuel"/>
+    </Layout>
+    <Registration Text="Inscription">
+      <Info Text="Veuillez entrer votre adresse e-mail afin que nous puissions vous fournir une assistance plus personnalisée.">
+        <Email Text="Cet e-mail sera défini sur le compte administrateur par défaut et peut être utilisé pour réinitialiser le mot de passe. Vous pouvez modifier cette adresse e-mail à tout moment."/>
+      </Info>
+      <Email Text="Votre adresse email">
+        <Privacy Text="Votre email est strictement confidentiel. Nous utiliserons votre e-mail pour vous fournir une assistance plus personnalisée et pour vous envoyer les dernières mises à jour, uniquement si vous le souhaitez.\nNous détestons également le &amp;quot;spam&amp;quot;."/>
+      </Email>
+    </Registration>
+    <UserProfile>
+      <Title Text="Configurons votre compte personnel"/>
+      <Info Text="Veuillez entrer votre nom et les identifiants de connexion utilisés pour l'accès administrateur."/>
+      <LearnMore Text="En savoir plus sur les utilisateurs et les identifiants par défaut"/>
+      <FirstName Text="Prénom"/>
+      <LastName Text="Nom de famille"/>
+      <Email Text="E-mail">
+        <Info Text="Cet e-mail sera utilisé comme e-mail de récupération pour votre compte.\nAssurez-vous d'avoir saisi une adresse e-mail valide afin de pouvoir réinitialiser votre mot de passe par e-mail."/>
+        <Missing Text="Si vous n'entrez pas d'adresse e-mail valide, vous risquez d'être bloqué.\nEn cas d'oubli de votre mot de passe, il n'y aura aucun moyen de le récupérer sans adresse e-mail valide.">
+          <Title Text="L'adresse e-mail n'est pas définie"/>
+          <Confirmation Text="Voulez-vous continuer sans adresse e-mail ?"/>
+        </Missing>
+      </Email>
+      <Password Text="Mot de passe">
+        <Errors>
+          <Empty Text="Le mot de passe ne répond pas aux critères requis. Le mot de passe doit être défini et comporter au moins 4 caractères"/>
+          <ConfirmationError Text="La confirmation du mot de passe ne correspond pas. Veuillez saisir les mêmes valeurs dans les champs de mot de passe et de confirmation de mot de passe."/>
+        </Errors>
+      </Password>
+      <ConfirmPassword Text="Confirmez le mot de passe"/>
+      <PasswordPolicy Text="Le mot de passe doit comporter au moins 4 caractères"/>
+    </UserProfile>
+    <Completed Text="Intégration terminée">
+      <Info Text="Toutes nos félicitations! Vous êtes prêt et prêt à partir.\nEnsuite, ouvrez la section &amp;quot;Gestion&amp;quot; pour ajouter des produits et commencer à vendre."/>
+      <Finish Text="Fermer et continuer"/>
+    </Completed>
+  </Onboarding>
+  <BusinessDay>
+    <Close>
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour fermer le jour ouvrable"/>
+      </Authorization>
+    </Close>
+    <Select Text="Sélectionnez le jour ouvrable">
+      <EnableSelection Text="(Cliquez sur la date pour changer le jour ouvrable)"/>
+    </Select>
+  </BusinessDay>
+  <Application>
+    <Close Text="Quitter l'application">
+      <Info Text="Êtes-vous sûr de vouloir quitter l'application ?"/>
+      <ShutDown Text="Quitter l'application"/>
+      <Restart Text="Redémarrer l'application"/>
+      <TurnOffComputer Text="Éteignez le PC"/>
+    </Close>
+    <FullScreen Text="Plein écran"/>
+    <Exit Text="Quitter l'application"/>
+    <Menu Text="Menu"/>
+    <RestartRequired Text="Redémarrage requis">
+      <Info Text="Le redémarrage de l'application est requis pour que les modifications prennent effet. Voulez-vous redémarrer l'application maintenant ?"/>
+    </RestartRequired>
+    <ReloadProducts Text="Recharger des produits">
+      <Info Text="Les produits sont modifiés. Voulez-vous recharger des produits maintenant ?"/>
+    </ReloadProducts>
+  </Application>
+  <Period Text="Période">
+    <Start Text="Démarrer"/>
+    <End Text="Finir"/>
+    <Preset Text="Période prédéfinie">
+      <Today Text="Aujourd'hui"/>
+      <Yesterday Text="Hier"/>
+      <ThisWeek Text="Cette semaine"/>
+      <LastWeek Text="La semaine dernière"/>
+      <ThisMonth Text="Ce mois-ci"/>
+      <LastMonth Text="Le mois dernier"/>
+      <ThisYear Text="Cette année"/>
+      <LastYear Text="L'année dernière"/>
+    </Preset>
+  </Period>
+  <Login Text="Connexion">
+    <Password Text="Mot de passe">
+      <Forgot Text="Mot de passe oublié?"/>
+    </Password>
+    <Error Text="Échec de la connexion. Vérifiez votre mot de passe et réessayez."/>
+    <Authentication Text="Utilisateur en ligne">
+      <Failed Text="Utilisateur non trouvé. Vérifiez votre mot de passe et réessayez."/>
+    </Authentication>
+    <Reset Text="Réinitialiser le mot de passe">
+      <LearnMore Text="En savoir plus sur la réinitialisation de votre mot de passe"/>
+      <Email Text="Entrer l'adresse e-mail">
+        <Info Text="Saisissez l'adresse e-mail associée à l'utilisateur pour lequel vous souhaitez réinitialiser le mot de passe.\nNous vous enverrons un code de vérification à l'adresse e-mail que vous saisissez ci-dessous."/>
+        <Required Text="L'e-mail est requis"/>
+        <EmailAddress Text="Adresse e-mail">
+          <Tooltip Text="Entrez votre adresse email"/>
+        </EmailAddress>
+        <ExistingCode Text="J'ai le code. Emmenez-moi à l'étape suivante."/>
+      </Email>
+      <Code Text="Vérifier le code">
+        <Info Text="Vérifiez vos e-mails - nous vous avons envoyé un code d'autorisation que vous devez saisir dans la case ci-dessous.\nSi vous n'avez pas reçu d'e-mail avec le code d'autorisation, veuillez vérifier votre dossier spam ou réessayer d'envoyer un e-mail."/>
+        <Email Text="Le code d'autorisation est envoyé à {0}."/>
+        <AuthorizationCode Text="Code d'autorisation">
+          <Tooltip Text="Entrez le code d'autorisation ici..."/>
+        </AuthorizationCode>
+        <Verify Text="Vérifier le code"/>
+      </Code>
+      <Password Text="Entrez un nouveau mot de passe">
+        <Info Text="Saisissez un nouveau mot de passe et une confirmation de mot de passe pour votre compte local.\nLes champs du nouveau mot de passe et de confirmation du nouveau mot de passe doivent correspondre.\n\nUne fois que vous avez terminé, cliquez sur le bouton &amp;quot;OK&amp;quot; pour réinitialiser votre mot de passe."/>
+        <NewPassword Text="Nouveau mot de passe"/>
+        <NewPasswordConfirmation Text="Confirmer le nouveau mot de passe"/>
+        <InUse Text="Le mot de passe spécifié est déjà pris. Veuillez saisir un autre mot de passe et réessayer."/>
+        <User Text="Utilisateur : {0}"/>
+        <SetPassword Text="Définissez votre nouveau mot de passe"/>
+        <Success Text="Le mot de passe a été changé avec succès"/>
+      </Password>
+      <Error>
+        <Expired Text="Votre code d'autorisation a expiré.\nVeuillez demander un nouveau code d'autorisation."/>
+        <InvalidCode Text="Code invalide. Veuillez saisir un code valide et réessayer."/>
+        <NoSuchUser Text="L'utilisateur avec l'adresse e-mail spécifiée &amp;quot;{0}&amp;quot; n'existe pas.\nVeuillez entrer une adresse e-mail valide et réessayer."/>
+        <InvalidEmailAddress Text="L'adresse email n'est pas valide. Veuillez saisir une adresse e-mail valide et réessayer."/>
+        <LimitReached Text="Vous avez atteint la limite de demandes de réinitialisation de mot de passe.\nVous pouvez réessayer dans 24 heures."/>
+        <GeneralError Text="Une erreur s'est produite lors de la tentative d'envoi de la demande de réinitialisation du mot de passe.\nVeuillez réessayer plus tard."/>
+      </Error>
+    </Reset>
+  </Login>
+  <Order>
+    <List Text="Ouvrir la liste des commandes">
+      <Select Text="Sélectionner la commande"/>
+    </List>
+    <New Text="Nouvelle vente"/>
+    <Estimate Text="Fermer à clé">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour verrouiller la vente"/>
+      </Authorization>
+      <Created Text="Commande verrouillée avec succès"/>
+      <Clear Text="Débloquez cette vente">
+        <Authorization>
+          <Title Text="Veuillez entrer le mot de passe pour débloquer la vente"/>
+        </Authorization>
+        <Success Text="La vente est débloquée."/>
+      </Clear>
+      <Locked Text="Vente verrouillée">
+        <Info Text="La modification d'une vente verrouillée n'est pas autorisée."/>
+      </Locked>
+      <Issued Text="Cette vente est déjà verrouillée.\nLa modification d'une vente verrouillée n'est pas autorisée."/>
+      <NoItems Text="Aucun élément à verrouiller."/>
+    </Estimate>
+    <Transfer Text="Transfert">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour accéder à l'option de transfert"/>
+      </Authorization>
+      <All Text="Transférer toutes les commandes">
+        <Confirmation Text="Le transfert de toutes les commandes vers un autre utilisateur est irréversible !\n\nVoulez-vous vraiment transférer toutes vos commandes vers {0} ?"/>
+        <Success Text="Toutes les commandes ont été transférées avec succès."/>
+        <Error Text="Une erreur s'est produite lors du transfert des commandes vers l'utilisateur sélectionné.\nVeuillez réessayer."/>
+      </All>
+      <Orders Text="Commandes ouvertes"/>
+      <OrderNumber Text="Numéro de commande">
+        <Select Text="Sélectionner la commande"/>
+      </OrderNumber>
+      <Quantity Text="Sélectionnez les quantités à transférer"/>
+      <User Text="Utilisateur">
+        <Current Text="La commande appartient déjà à l'utilisateur sélectionné."/>
+      </User>
+      <Rounds Text="Tours de transfert">
+        <Summary Text="Items commandés"/>
+        <Selection Text="Sélectionnez les tours à transférer"/>
+      </Rounds>
+      <Items Text="Items commandés">
+        <Selected Text="Éléments sélectionnés pour le transfert">
+          <NoItems Text="Sélectionnez les éléments à transférer"/>
+        </Selected>
+        <All Text="Transférer tout"/>
+        <Back Text="Enlever tout"/>
+        <InvalidQuantity Text="Le transfert de l'élément sélectionné n'est pas autorisé">
+          <Info Text="La quantité totale des articles sélectionnés est inférieure à la quantité sélectionnée pour le transfert.\nVérifiez la quantité de transfert, les articles annulés et réessayez."/>
+        </InvalidQuantity>
+        <BundledQuantity Text="Changement de quantité non autorisé">
+          <Info Text="L'article appartient à un groupe. La modification de la quantité sur les articles de groupe n'est pas autorisée."/>
+        </BundledQuantity>
+      </Items>
+      <CurrentOrder Text="Transfert à la même commande">
+        <Confirmation Text="Vous transférez des articles vers la même commande. Aucune modification ne sera apportée.\nVoulez-vous vraiment continuer ? "/>
+      </CurrentOrder>
+      <Failed Text="Erreur de transfert d'éléments">
+        <Info Text="Une erreur s'est produite lors de la tentative de transfert d'éléments. Veuillez réessayer."/>
+      </Failed>
+      <Completed Text="Transfert terminé avec succès"/>
+      <NoItems Text="Aucun élément à transférer"/>
+      <Discount>
+        <Warning Text="Remise fixe">
+          <Info Text="La commande en cours a une remise fixe sur le panier. Le transfert d'articles de cette commande effacera la remise sur le panier.\n\nVoulez-vous continuer ?"/>
+        </Warning>
+      </Discount>
+    </Transfer>
+    <Void Text="Annuler">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour annuler cette commande"/>
+      </Authorization>
+      <Confirm Text="Ordre annulé">
+        <Info Text="Voulez-vous vraiment annuler cette commande ?"/>
+      </Confirm>
+      <Completed Text="Commande annulée avec succès"/>
+      <NoItems Text="Aucun article à annuler"/>
+    </Void>
+    <Rounds>
+      <Repeat Text="Répéter le tour">
+        <NoItems Text="Aucun article en commande.\nLa répétition du tour ne peut être effectuée que si le tour existe."/>
+        <NoQuantities Text="Au tour sélectionné #{0}, il n'y a pas d'articles avec des quantités suffisantes pour être répétés"/>
+        <Bundle Text="Les articles appartiennent à un groupe">
+          <Info Text="L'opération de répétition n'est pas autorisée pour les éléments groupés."/>
+        </Bundle>
+      </Repeat>
+      <New Text="Nouveau tour">
+        <NoItems Text="Il n'y a aucun article dans votre commande pour créer une nouvelle tournée.\nAjoutez des articles à la commande et réessayez."/>
+        <NoUnsavedItems Text="Tous les éléments dans l'ordre enregistrés. Nouveau cycle commencé."/>
+      </New>
+      <SelectAll Text="Tout sélectionner"/>
+      <SelectNone Text="Rejeter la totalité"/>
+      <Total Text="Le total:"/>
+      <NoItems Text="Aucun élément sélectionné"/>
+    </Rounds>
+    <Comment Text="Commenter">
+      <Add Text="Sélectionnez l'existant ou écrivez votre commentaire pour l'élément &amp;quot;{0}&amp;quot;"/>
+      <Insert Text="Écrivez un commentaire ici..."/>
+      <Change Text="Ajouter un commentaire">
+        <Forbidden Text="La modification de l'élément sélectionné n'est pas autorisée">
+          <Info Text="L'article &amp;quot;{0}&amp;quot; est commandé et confirmé.\nLa modification d'un article confirmé n'est pas autorisée."/>
+        </Forbidden>
+        <NoItem Text="Aucun élément sélectionné.\nSélectionnez un élément auquel vous souhaitez ajouter un commentaire et réessayez."/>
+      </Change>
+    </Comment>
+    <Subtotal Text="Total"/>
+    <Tax Text="Impôt"/>
+    <Total Text="LE TOTAL"/>
+    <Checkout Text="Paiement"/>
+    <Save Text="Enregistrer la vente"/>
+    <Refund Text="Remboursement">
+      <Authorization Text="Mot de passe requis pour l'opération de remboursement"/>
+      <Title Text="Rembourser des articles"/>
+      <CartDiscountApplied Text="Remise panier appliquée">
+        <Info Text="La remise sur le panier est appliquée et calculée au total.\nSi un remboursement partiel est utilisé, la remise sur le panier sera calculée sur les articles remboursés."/>
+      </CartDiscountApplied>
+      <Total Text="MONTANT TOTAL DU REMBOURSEMENT"/>
+      <ReceiptNumber Text="Numéro de reçu"/>
+      <PaymentType Text="Remboursement type de paiement"/>
+      <Description Text="Entrez le numéro de reçu et le type de paiement pour confirmer le remboursement"/>
+      <SelectAll Text="Sélectionner / Désélectionner tout"/>
+      <Print>
+        <PrinterNotFound Text="Imprimante de remboursement non sélectionnée."/>
+      </Print>
+      <MultyplePaymentTypes Text="Le document sélectionné contient plusieurs types de paiement. Sélectionnez l'option ci-dessous pour copier les types de paiement dans ce remboursement.">
+        <PartialRefund Text="L'utilisation de plusieurs types de paiement à partir du document de vente original n'est pas disponible pour un remboursement partiel."/>
+        <Copy Text="Copier les types de paiement à partir du document original"/>
+      </MultyplePaymentTypes>
+    </Refund>
+    <Items>
+      <Name Text="Nom du produit"/>
+      <Quantity Text="Quantité">
+        <Change Text="Modifier la quantité">
+          <Info Text="Entrez la quantité pour l'article suivant"/>
+          <Item Text="Élément &amp;quot;{0}&amp;quot;"/>
+          <Forbidden Text="Le changement de quantité n'est pas autorisé">
+            <Info Text="L'élément &amp;quot;{0}&amp;quot; est confirmé.\nLa modification d'un élément confirmé n'est pas autorisée."/>
+          </Forbidden>
+          <Product Text="Produit &amp;quot;{0}&amp;quot;\nQuantité par défaut : {1:#,#.000}"/>
+          <Bundled Text="Changement de quantité non autorisé">
+            <Info Text="Le changement de quantité sur les articles groupés n'est pas autorisé."/>
+          </Bundled>
+        </Change>
+        <Invalid Text="Quantité invalide. Saisissez une quantité valide et réessayez."/>
+      </Quantity>
+      <Price Text="Prix">
+        <Change Text="Change le prix">
+          <Product Text="Produit &amp;quot;{0}&amp;quot;\nPrix : {1:#,#.00}"/>
+        </Change>
+      </Price>
+      <Total Text="Montant"/>
+      <Empty Text="Pas d'objet">
+        <Info Text="Ajoutez des produits au reçu à l'aide d'un code-barres, d'un code ou recherchez en appuyant sur le bouton F3"/>
+      </Empty>
+      <Start Text="Démarrer"/>
+      <Page Text="Page"/>
+      <Add>
+        <Error Text="Erreur lors de l'ajout de l'élément. Données d'article non valides.\nVérifiez le prix et la quantité de l'article et réessayez."/>
+      </Add>
+      <Void>
+        <NoItems Text="L'annulation de l'élément &amp;quot;{0}&amp;quot; n'est pas autorisée. Quantité insuffisante."/>
+        <Bundle Text="L'article appartient à un groupe. La suppression de cet élément supprimera tous les éléments du même groupe.\n\nVoulez-vous vraiment supprimer tous les éléments de ce groupe ?">
+          <Title Text="Suppression d'un élément de groupe"/>
+        </Bundle>
+      </Void>
+    </Items>
+    <Print>
+      <User Text="Utilisateur : {0}"/>
+      <Time Text="Heure : {0}"/>
+      <Number Text="Numéro de commande : {0}"/>
+      <Table Text="Tableau : {0}"/>
+      <Estimate Text="ESTIMATION">
+        <Discount Text="Rabais"/>
+        <Total Text="LE TOTAL:"/>
+        <Footer Text="Ceci n'est pas un reçu.\nVeuillez attendre le reçu final."/>
+      </Estimate>
+      <Kitchen>
+        <TableAndRound Text="Tableau : {0}. Tour 1}"/>
+        <NumberAndRound Text="Commande : {0}. Tour 1}"/>
+      </Kitchen>
+      <Dialog>
+        <Title Text="Comment le client aimerait-il son reçu ?"/>
+        <Change Text="Changer"/>
+        <Receipt Text="Imprimer le reçu"/>
+        <Invoice Text="La facture d'impression"/>
+        <Email Text="Envoyer un e-mail">
+          <Recipient Text="Destinataire du courriel">
+            <Title Text="Entrez les détails de l'e-mail et cliquez sur le bouton &amp;quot;Envoyer&amp;quot; pour continuer"/>
+            <EmailAddress Text="Adresse du destinataire">
+              <Description Text="Entrez l'adresse e-mail du client"/>
+              <AddCustomer Text="Ajouter un client"/>
+            </EmailAddress>
+            <Bcc Text="Cci">
+              <Description Text="Ajouter des destinataires Cci"/>
+            </Bcc>
+            <Subject Text="Matière">
+              <Description Text="Entrez la ligne d'objet"/>
+              <Default Text="Reçu {0}"/>
+            </Subject>
+            <Message Text="Un message">
+              <Description Text="Saisir un message pour le client"/>
+              <Default Text="Cher client,\n\nTrouvez le reçu ci-joint.\n\nDate du reçu : {0}\nTotal : {1}"/>
+            </Message>
+            <CopySelf Text="Envoyer une copie à moi-même"/>
+            <Error>
+              <EmailFormat Text="L'adresse e-mail n'est pas correctement formatée.\nVeuillez vérifier l'adresse e-mail et réessayer."/>
+            </Error>
+          </Recipient>
+          <Sending Text="Envoi de l'e-mail... Veuillez patienter..."/>
+          <Sent Text="Reçu envoyé à {0}"/>
+        </Email>
+        <Hide Text="Ne plus montrer ça"/>
+      </Dialog>
+    </Print>
+    <Products>
+      <Search Text="Rechercher">
+        <Name Text="Nom du produit">
+          <Tooltip Text="Rechercher un produit par nom"/>
+          <NotFound Text="Aucun résultat pour &amp;quot;{0}&amp;quot;">
+            <Info Text="Veuillez vérifier vos paramètres de recherche et réessayer"/>
+          </NotFound>
+        </Name>
+        <Barcode Text="code à barre">
+          <Tooltip Text="Rechercher un produit par code-barres"/>
+          <NotFound Text="Code-barres introuvable"/>
+        </Barcode>
+        <Code Text="Code produit">
+          <Tooltip Text="Rechercher un produit par code"/>
+          <NotFound Text="Code non trouvé"/>
+        </Code>
+        <NoItems Text="Aucun produit sélectionné">
+          <Info Text="Rechercher un produit par nom ou code pour continuer"/>
+        </NoItems>
+        <Selection>
+          <Price Text="Prix"/>
+          <Description Text="La description"/>
+        </Selection>
+        <NoResults Text="Aucun résultat"/>
+      </Search>
+      <NoProducts Text="Aucun produit disponible">
+        <Info Text="S'il vous plaît, ajoutez des produits ou fixez le prix de vente à ceux existants pour continuer"/>
+      </NoProducts>
+    </Products>
+    <Lock Text="Fermer à clé"/>
+    <Unlock Text="Ouvrir"/>
+    <Item>
+      <Void>
+        <Authorization>
+          <Title Text="Veuillez saisir le mot de passe pour annuler l'article sélectionné"/>
+        </Authorization>
+      </Void>
+      <ChangePrice>
+        <Minimum Text="Valeur minimale : {0}"/>
+      </ChangePrice>
+    </Item>
+    <QuickPayment Text="Paiement rapide">
+      <Confirmation Text="Vous avez sélectionné &amp;quot;{0}&amp;quot; comme type de paiement pour la vente en cours.\n\nVoulez-vous continuer à utiliser le type de paiement sélectionné ?"/>
+    </QuickPayment>
+    <Discount Text="Rabais">
+      <Authorization Text="Veuillez entrer le mot de passe pour appliquer les réductions"/>
+      <Cart>
+        <Invalid Text="Remise panier invalide">
+          <GreaterThenTotal Text="Le total avec les remises ne peut pas être supérieur\ntau total de la commande."/>
+        </Invalid>
+        <Cleared Text="Remise sur le panier effacée !">
+          <Info Text="Un total non valide a été détecté et la remise a été supprimée de la commande.\n\nVeuillez vérifier vos articles et appliquer à nouveau une remise valide avant de procéder au paiement."/>
+        </Cleared>
+      </Cart>
+      <Item>
+        <NotSelected Text="L'article n'est pas sélectionné.\nPour appliquer une remise à un seul article, sélectionnez-en un dans la liste des ventes avant d'ouvrir cette boîte de dialogue"/>
+        <Invalid Text="Remise sur l'article non valide">
+          <GreaterThenTotal Text="Le montant fixe ne peut pas être supérieur\ntau total de l'article"/>
+        </Invalid>
+        <Cleared Text="Remise sur l'article effacée">
+          <Info Text="Le total de l'article non valide a été détecté et la remise précédemment appliquée a été supprimée.\n\nVeuillez vérifier si des remises doivent être appliquées à cet article avant de procéder au paiement."/>
+        </Cleared>
+      </Item>
+    </Discount>
+  </Order>
+  <Closing Text="Fin de la journée">
+    <Users Text="Opérations ouvertes">
+      <User>
+        <Total Text="LE TOTAL:"/>
+      </User>
+      <Summary Text="Opérations ouvertes"/>
+      <NoReports Text="Aucune transaction ouverte"/>
+    </Users>
+    <Option Text="Sélectionnez l'option de retrait">
+      <NotSelected Text="Option de retrait non sélectionnée">
+        <Info Text="Choisissez l'une des options ci-dessus pour continuer"/>
+      </NotSelected>
+    </Option>
+    <User Text="Encaisser">
+      <Completed Text="{0} a été encaissé avec succès."/>
+    </User>
+    <Shift Text="Encaisser tous les utilisateurs">
+      <Closed Text="Tous les utilisateurs ont encaissé avec succès"/>
+    </Shift>
+    <BusinessDay Text="Fermer le registre">
+      <Income Text="Jour total"/>
+      <Closed Text="Inscription fermée avec succès"/>
+      <Report Text="RAPPORT"/>
+      <CashIn Text="Encaisser"/>
+      <CashOut Text="Encaisser"/>
+    </BusinessDay>
+    <Error>
+      <OpenOrders Text="Commandes ouvertes">
+        <Users Text="Il y a des utilisateurs avec des commandes ouvertes !\nVous devez fermer toutes les commandes avant le jour de fermeture."/>
+      </OpenOrders>
+    </Error>
+    <Print>
+      <User>
+        <Report>
+          <Total Text="MONTANT TOTAL"/>
+          <User Text="Utilisateur">
+            <ClosedBy Text="Reçu"/>
+          </User>
+          <Header Text="ENCAISSEMENT PAR L'UTILISATEUR"/>
+        </Report>
+      </User>
+      <DayClose>
+        <Report>
+          <Header Text="JOUR DE FERMETURE"/>
+          <User>
+            <Total Text="LE TOTAL"/>
+          </User>
+          <Summary Text="RÉSUMÉ"/>
+          <Total Text="LE TOTAL"/>
+        </Report>
+      </DayClose>
+    </Print>
+    <History Text="Histoire">
+      <Info Text="Utilisez la liste ci-dessous pour sélectionner et imprimer une copie de tout rapport Z précédemment généré."/>
+      <List>
+        <Reports Text="Rapports"/>
+        <Number Text="Nombre"/>
+        <Date Text="Date"/>
+      </List>
+      <Print Text="Imprimer le rapport sélectionné">
+        <Unsupported Text="Opération non prise en charge"/>
+      </Print>
+    </History>
+  </Closing>
+  <User Text="Utilisateur">
+    <Profile Text="Informations utilisateur">
+      <Info Text="Profil"/>
+      <Edit Text="Changer de profil ou de mot de passe"/>
+      <Data>
+        <FirstName Text="Prénom"/>
+        <LastName Text="Nom de famille"/>
+        <Email Text="E-mail"/>
+        <Password Text="Mot de passe">
+          <Change Text="Changer le mot de passe">
+            <Password Text="Mot de passe"/>
+            <Confirm Text="Confirmez le mot de passe"/>
+            <ConfirmationFailed Text="Le champ pour le mot de passe et le mot de passe de confirmation ne correspondent pas.\nVérifiez le mot de passe et réessayez."/>
+            <InvalidPassword Text="Le mot de passe est déjà utilisé. Veuillez utiliser un mot de passe différent."/>
+          </Change>
+        </Password>
+        <Saved Text="Profil modifié avec succès"/>
+      </Data>
+      <ShiftReport Text="Rapport d'utilisateur">
+        <Report Text="Rapport d'utilisateur">
+          <NoData Text="Aucune transaction ouverte"/>
+          <Total Text="LE TOTAL"/>
+        </Report>
+        <ClockOut Text="Encaisser"/>
+      </ShiftReport>
+    </Profile>
+  </User>
+  <Security>
+    <Authorize Text="Authentification d'utilisateur"/>
+    <Level Text="Niveau d'accès">
+      <Change Text="Modifier le niveau d'accès pour l'action sélectionnée">
+        <AccessDenied Text="Vous ne disposez pas des privilèges suffisants pour modifier le niveau d'accès pour cette opération.\n\nLe niveau d'accès peut être ajusté par l'utilisateur avec le niveau d'accès nécessaire pour effectuer l'opération sélectionnée."/>
+      </Change>
+    </Level>
+    <AccessDenied Text="Accès refusé">
+      <Info Text="Vous ne disposez pas des privilèges suffisants pour l'opération sélectionnée."/>
+    </AccessDenied>
+  </Security>
+  <Payment>
+    <Details>
+      <Summary Text="Articles"/>
+      <Actions Text="Actions">
+        <ShowItems Text="Afficher les éléments"/>
+      </Actions>
+      <Discount Text="Rabais">
+        <Options Text="Options de remise">
+          <DisallowedItems Text="Il y a des articles qui ne peuvent pas être directement affectés à une remise."/>
+        </Options>
+        <Type>
+          <Percent Text="Appliquer la remise en pourcentage"/>
+          <Fixed Text="Appliquer la remise comme montant fixe"/>
+        </Type>
+        <Target>
+          <Item Text="Remise sur l'article">
+            <NotSelected Text="Aucun article sélectionné.\nVeuillez sélectionner l'article sur la gauche pour appliquer une remise."/>
+            <NotAllowed Text="La remise n'est pas autorisée pour les articles annulés"/>
+            <Info Text="Appliquer la remise à &amp;quot;{0}&amp;quot;"/>
+          </Item>
+          <Cart Text="Remise panier">
+            <Info Text="Appliquer une remise sur le panier"/>
+          </Cart>
+        </Target>
+        <Total Text="Le total:"/>
+        <Subtotal Text="Total:"/>
+        <TotalDiscount Text="Remise totale:"/>
+        <Clear Text="Effacer les remises">
+          <Completed Text="Toutes les remises supprimées"/>
+        </Clear>
+      </Discount>
+      <Split Text="Les manches">
+        <Rounds Text="Sélectionnez le tour pour le paiement">
+          <RoundNumber Text="Rond:"/>
+          <RoundTotal Text="Montant:"/>
+          <SelectAll Text="Tout sélectionner"/>
+          <SelectNone Text="Rejeter la totalité"/>
+        </Rounds>
+      </Split>
+      <Customer Text="Client"/>
+      <Total Text="Le total:"/>
+      <TotalWithoutDiscount Text="Total sans remise :"/>
+      <Money Text="Paiement">
+        <Paid Text="Payé:">
+          <Hint>
+            <TypeAmount Text="Tapez le montant payé"/>
+            <TapToChange Text="Appuyez ici pour saisir le montant payé"/>
+          </Hint>
+        </Paid>
+        <Change Text="Changer:"/>
+        <Balance Text="Équilibre:"/>
+      </Money>
+      <PaymentTypes Text="Type de paiement">
+        <Other Text="Paiements fractionnés"/>
+        <Invalid Text="Type de paiement non autorisé">
+          <Fiscal Text="Le type de paiement sélectionné contient une combinaison non valide de type de paiement fiscal et non fiscal.\n\nIl n'est pas permis de combiner les types de paiement fiscal et non fiscal."/>
+        </Invalid>
+      </PaymentTypes>
+      <NoItems Text="Pas d'objet "/>
+    </Details>
+    <NoPaymentSelected Text="Type de paiement non sélectionné"/>
+    <Add Text="Ajouter un type de paiement">
+      <Info Text="Choisissez les types de paiement et les montants requis pour la vente en cours"/>
+      <Amount Text="Montant du paiement &amp;quot;{0}&amp;quot;"/>
+    </Add>
+    <Selected Text="Type de paiement sélectionné"/>
+    <Customer>
+      <Required Text="Client requis">
+        <Info Text="Le type de paiement &amp;quot;{0}&amp;quot; nécessite que le client soit sélectionné. Veuillez sélectionner un client pour continuer."/>
+      </Required>
+    </Customer>
+    <PaymentTypes>
+      <Validation>
+        <Change>
+          <Missing Text="Montant incorrect">
+            <Info Text="Ce type de paiement ne permet pas le changement. Saisissez le montant correct ou sélectionnez un autre type de paiement."/>
+          </Missing>
+        </Change>
+      </Validation>
+    </PaymentTypes>
+  </Payment>
+  <Customer>
+    <Search Text="Rechercher un client">
+      <Name Text="Nom"/>
+      <PIN Text="Numéro d'identification fiscale"/>
+      <LoyaltyCard Text="Carte de fidélité"/>
+      <Email Text="E-mail"/>
+      <PhoneNumber Text="Numéro de téléphone"/>
+    </Search>
+    <Selection Text="Client sélectionné">
+      <Details>
+        <PIN Text="Numéro d'identification fiscale:"/>
+        <Address Text="Adresse:"/>
+        <Email Text="E-mail:"/>
+        <PhoneNumber Text="Numéro de téléphone:"/>
+      </Details>
+      <None Text="Client non sélectionné">
+        <Info Text="Sélectionnez le client dans la liste"/>
+      </None>
+      <Clear Text="Effacer le client sélectionné">
+        <Completed Text="Client sélectionné supprimé"/>
+      </Clear>
+    </Selection>
+    <New Text="Nouveau client">
+      <Add Text="Ajouter un nouveau client"/>
+      <Name Text="Nom"/>
+      <TaxNumber Text="Numéro d'identification fiscale"/>
+      <Address Text="Adresse"/>
+      <City Text="Ville"/>
+      <PostalCode Text="code postal"/>
+      <Country Text="État"/>
+      <PhoneNumber Text="Numéro de téléphone"/>
+      <Email Text="E-mail"/>
+    </New>
+  </Customer>
+  <Navigation>
+    <Back>
+      <NotAllowed Text="L'opération sélectionnée n'est pas autorisée."/>
+    </Back>
+  </Navigation>
+  <FloorPlans>
+    <Options Text="Options">
+      <Design Text="Plan d'étage / réglages de la table">
+        <Grid>
+          <Show Text="Afficher la grille"/>
+          <SnapToGrid Text="Aligner sur la grille"/>
+          <Size Text="Taille de la grille"/>
+        </Grid>
+        <FloorPlan>
+          <Add Text="Ajouter un nouveau plan d'étage"/>
+          <Delete Text="Supprimer le plan d'étage"/>
+          <Rename Text="Renommer le plan d'étage"/>
+          <Name Text="Nom"/>
+        </FloorPlan>
+        <Table>
+          <Add Text="Ajouter un tableau"/>
+          <Delete Text="Supprimer la table sélectionnée"/>
+          <Name Text="Nom"/>
+          <Height Text="Hauteur"/>
+          <Width Text="Largeur"/>
+          <Size Text="TAILLE"/>
+        </Table>
+      </Design>
+      <View>
+        <Orders Text="Afficher les commandes">
+          <Title Text="Commandes ouvertes "/>
+          <Order>
+            <Number Text="Numéro de commande"/>
+            <Total Text="Le total"/>
+          </Order>
+          <NoOrders Text="Il n'y a pas de commandes ouvertes. Créer une nouvelle commande en utilisant le plan d'étage."/>
+        </Orders>
+        <FloorPlans Text="Afficher les plans d'étage"/>
+      </View>
+      <NoSelection Text="Continuer sans sélection"/>
+    </Options>
+    <Save>
+      <Success Text="Les modifications ont bien été enregistrées."/>
+      <Error Text="Une erreur se produit lors de l'enregistrement\nLes données ne sont pas conservées.\nMessage système : {0}">
+        <Duplicates Text="Noms de table en double trouvés.\n\n{0}\n\nLes noms de table doivent être uniques. Veuillez corriger les noms de table et réessayer.">
+          <Title Text="Doublons trouvés"/>
+        </Duplicates>
+      </Error>
+    </Save>
+    <Table>
+      <Unavailable Text="La table &amp;quot;{0}&amp;quot; est prise par {1}. Si vous continuez, vous créerez une commande distincte sur la même table.\n\nVoulez-vous continuer malgré tout ?">
+        <Title Text="Tableau déjà pris"/>
+      </Unavailable>
+    </Table>
+  </FloorPlans>
+  <Settings Text="Paramètres">
+    <Basic Text="Paramètres de base">
+      <Language Text="Langue"/>
+      <Style Text="Style d'application">
+        <ColorScheme Text="Schéma de couleur"/>
+      </Style>
+      <Layout Text="Mise en page">
+        <TouchScreen Text="Visuel"/>
+        <Keyboard Text="Standard"/>
+      </Layout>
+      <Zoom Text="Zoom"/>
+      <VirtualKeyboard Text="Activer le clavier virtuel"/>
+      <ProductSearch>
+        <Barcode Text="code à barre"/>
+        <Code Text="Code"/>
+        <Name Text="Nom"/>
+      </ProductSearch>
+      <ColorScheme>
+        <Dark Text="Sombre"/>
+        <Light Text="Lumière"/>
+      </ColorScheme>
+      <NotificationPosition>
+        <Top Text="Haut"/>
+        <Bottom Text="Bas"/>
+      </NotificationPosition>
+      <Notifications Text="messages">
+        <ShowClose Text="Afficher le bouton &amp;quot;Fermer&amp;quot;"/>
+        <ClickToClose Text="Cliquez pour fermer"/>
+        <SlideIn Text="Glisser dans"/>
+        <Duration Text="Durée du message (sec.)"/>
+        <Position Text="Positionner"/>
+      </Notifications>
+      <StartingCash Text="Afficher l'encaissement au début de l'application"/>
+      <BusinessDay Text="Jour ouvrable">
+        <SelecBusinessDay Text="Sélectionnez le jour ouvrable au début de l'application"/>
+      </BusinessDay>
+      <ButtonBar Text="Barre de boutons">
+        <Info Text="Sélectionnez les actions à afficher dans la barre de boutons">
+          <VisualLayoutOnly Text="Applicable pour la mise en page &amp;quot;Visuel&amp;quot; uniquement"/>
+        </Info>
+        <IsCommentVisible Text="Commenter"/>
+        <IsDiscountVisible Text="Rabais"/>
+        <IsNewSaleVisible Text="Nouvelle vente"/>
+        <IsRefundVisible Text="Remboursement"/>
+        <IsSearchVisible Text="Rechercher"/>
+        <IsTransferVisible Text="Transfert"/>
+      </ButtonBar>
+    </Basic>
+    <Order Text="Paiement de la commande">
+      <Standard Text="Opérations de base">
+        <AutoOrderNumber Text="Utiliser des plans d'étage"/>
+        <PlaySound Text="Des sons">
+          <SoundSettings>
+            <Navigation Text="Son de navigation"/>
+            <ItemAdded Text="Son ajouté à l'article"/>
+            <ItemNotFound Text="Élément introuvable"/>
+            <Show Text="Afficher les options de son"/>
+            <Hide Text="Masquer les options de son"/>
+          </SoundSettings>
+        </PlaySound>
+        <ProductGrid Text="Nombre ou lignes/colonnes"/>
+      </Standard>
+      <Users Text="Utilisateurs">
+        <SingleUser Text="Utilisateur unique"/>
+      </Users>
+      <Products Text="Articles">
+        <DefaultQuantity Text="Quantité par défaut"/>
+        <DefaultSearch Text="Recherche par défaut">
+          <Options Text="Afficher les options de recherche"/>
+        </DefaultSearch>
+        <DefaultDiscountType Text="Type de remise par défaut">
+          <Percent Text="Pourcentage"/>
+          <Fixed Text="Fixé"/>
+        </DefaultDiscountType>
+        <RowPerItem Text="Ligne séparée pour chaque élément"/>
+      </Products>
+      <Payment Text="Paiement">
+        <ShowSummary Text="Afficher les articles sur le formulaire de paiement"/>
+        <FixedRows Text="Nombre de lignes de type de paiement"/>
+        <IsSingleItemDiscountAllowed Text="Remise sur un seul article autorisée"/>
+        <QuickPaymentConfirmation Text="Confirmation de paiement des touches de raccourci"/>
+        <ShowPrintReceiptDialog Text="Afficher la boîte de dialogue d'impression du reçu"/>
+        <DefaultDueDate Text="Date d'échéance par défaut">
+          <Days Text="journées"/>
+        </DefaultDueDate>
+        <MergeItemsOnPayment Text="Fusionner les articles à la réception"/>
+      </Payment>
+      <Advanced>
+        <Show Text="Afficher les paramètres avancés"/>
+        <Hide Text="Masquer les paramètres avancés"/>
+        <ResetOrderNumber Text="Réinitialiser le numéro de commande à la clôture du jour"/>
+        <ShowAllOccupiedTables Text="Afficher toutes les tables occupées dans le plan d'étage"/>
+      </Advanced>
+    </Order>
+    <Products Text="Paramètres des produits">
+      <TaxInclusivePrice Text="Afficher et imprimer des articles avec taxes incluses">
+        <Tooltip Text="S'ils sont sélectionnés, les articles seront affichés dans les ventes et imprimés sur un reçu avec le prix TTC."/>
+      </TaxInclusivePrice>
+      <DiscountApplyRule Text="Règle d'application de la remise">
+        <BeforeTax Text="Avant impôt"/>
+        <AfterTax Text="Après impôts"/>
+      </DiscountApplyRule>
+    </Products>
+    <Print Text="Options d'impression">
+      <PrinterSelection Text="Sélection de l'imprimante">
+        <Tour>
+          <Title Text="Ajuster les paramètres de l'imprimante"/>
+          <Content Text="Cliquez sur le bouton &amp;quot;Paramètres de l'imprimante&amp;quot;\npour configurer et personnaliser votre imprimante"/>
+        </Tour>
+      </PrinterSelection>
+      <Printers>
+        <KitchenTicket Text="Imprimante de cuisine">
+          <Operation Text="Imprimer le ticket de cuisine"/>
+        </KitchenTicket>
+        <Service Text="Imprimante de service">
+          <Operation Text="Imprimer les messages de service"/>
+        </Service>
+        <Estimate Text="Imprimante de vente verrouillée">
+          <Operation Text="Imprimer la vente verrouillée"/>
+        </Estimate>
+        <OrderSummary Text="Ordre d'impression"/>
+      </Printers>
+      <PrinterOptions Text="Paramètres de l'imprimante">
+        <Tooltip Text="Ajuster les paramètres de l'imprimante"/>
+        <PrinterType Text="Type d'imprimante">
+          <A4 Text="A4"/>
+          <EscPos Text="ESC/POS"/>
+          <POS58 Text="POS 58"/>
+          <POS58Rtl Text="POS 58 RTL"/>
+          <POS80 Text="POS 80"/>
+          <POS80Rtl Text="POS 80 RTL"/>
+        </PrinterType>
+        <NumberOfCopies Text="Nombre de copies"/>
+        <PaperWidth Text="Caractères par ligne"/>
+        <Header Text="Entête"/>
+        <Footer Text="Bas de page"/>
+        <FeedLines Text="Lignes d'alimentation"/>
+        <CutPaper Text="Papier découpé"/>
+        <PrintBitmap Text="Imprimer le bitmap"/>
+        <RichFormatting Text="Formatage riche"/>
+        <Alignment>
+          <Left Text="Alignez à gauche"/>
+          <Center Text="Aligner au centre"/>
+        </Alignment>
+        <Revert Text="Rétablir les changements">
+          <Completed Text="Paramètres précédemment enregistrés appliqués"/>
+        </Revert>
+        <PrintTestPage Text="Imprimer la page de test"/>
+        <Advanced Text="Avancée">
+          <CodePage Text="Page de codes"/>
+          <CharacterSet Text="Jeu de caractères">
+            <None Text="Aucun (par défaut de l'imprimante)"/>
+            <USA Text="Etats-Unis"/>
+            <France Text="France"/>
+            <Germany Text="Allemagne"/>
+            <UK Text="Royaume-Uni"/>
+            <DenmarkI Text="Danemark I"/>
+            <Sweden Text="Suède"/>
+            <Italy Text="Italie"/>
+            <SpainI Text="Espagne I"/>
+            <Japan Text="Japon"/>
+            <Norway Text="Norvège"/>
+            <DenmarkII Text="Danemark II"/>
+            <SpainII Text="Espagne II"/>
+            <LatinAmerica Text="l'Amérique latine"/>
+            <Korea Text="Corée"/>
+            <SloveniaCroatia Text="Slovénie / Croatie"/>
+            <China Text="Chine"/>
+            <Vietnam Text="Viêt Nam"/>
+            <Arabia Text="Saoudite"/>
+          </CharacterSet>
+        </Advanced>
+        <Unavailable Text="Les options supplémentaires ne sont pas disponibles pour le type d'imprimante sélectionné.\nPour voir les options d'imprimante supplémentaires, veuillez sélectionner un type d'imprimante différent.">
+          <Info Text="En savoir plus sur la sélection du type d'imprimante et la configuration de l'imprimante de reçus."/>
+        </Unavailable>
+        <Margin Text="Marges (en millimètres)">
+          <Top Text="Haut"/>
+          <Right Text="Droite"/>
+          <Bottom Text="Bas"/>
+          <Left Text="La gauche"/>
+        </Margin>
+        <PrintBarcode Text="Imprimer le code-barres"/>
+        <Font Text="Paramètres de police">
+          <Family Text="Famille de polices"/>
+          <SizePercent Text="Taille de police"/>
+          <Reset Text="Réinitialise la famille de polices par défaut et définit la taille de la police sur 100%"/>
+        </Font>
+      </PrinterOptions>
+      <Templates Text="Modèles d'impression">
+        <Font Text="Police de caractère">
+          <Info Text="La police sélectionnée ici sera utilisée dans les factures, les rapports et autres modèles d'impression. Si aucune n'est sélectionnée, la police par défaut sera utilisée."/>
+        </Font>
+      </Templates>
+    </Print>
+    <AddOns Text="Modules enregistrés">
+      <Modules Text="Modules"/>
+      <Plugins Text="Plugins"/>
+    </AddOns>
+    <Barcode Text="Paramètres de code-barres">
+      <VariableMeasureBarcode Text="Balances code-barres">
+        <Enabled Text="Activer le code-barres de la balance"/>
+        <Prefix Text="Deux premiers chiffres / préfixe"/>
+        <ProductCodeLength Text="Nombre de chiffres pour le code produit "/>
+        <DecimalPlaces Text="Nombre de décimales"/>
+        <TrimZeros Text="Supprimer les zéros du code produit (rogner les zéros)"/>
+        <IsUsingPriceBarcode Text="L'échelle imprime le prix au lieu de la quantité">
+          <Info Text="Certaines balances impriment le prix total au lieu de la quantité mesurée. Si cette option est activée, la quantité sera basée sur le prix du produit et le montant total de la balance."/>
+        </IsUsingPriceBarcode>
+      </VariableMeasureBarcode>
+    </Barcode>
+    <Email Text="Paramètres de messagerie">
+      <Host Text="Hôte"/>
+      <Port Text="Port"/>
+      <EmailAddress Text="Adresse e-mail"/>
+      <DisplayName Text="Afficher un nom"/>
+      <Password Text="Mot de passe"/>
+      <SSL Text="SSL activé"/>
+      <Defaults Text="Valeurs d'e-mail par défaut">
+        <Subject Text="Matière"/>
+        <Message Text="Un message"/>
+        <Description Text="Si vous décidez de laisser ces champs vides, l'objet et le message générés automatiquement pour le client seront utilisés. Vous pouvez les modifier avant l'envoi du message."/>
+        <Bcc Text="Destinataires en Cci"/>
+      </Defaults>
+    </Email>
+    <About Text="À propos">
+      <HelpCenter Text="Ouvrir le centre d'aide">
+        <Info Text="Allez sur help.aronium.com pour ouvrir une demande d'assistance."/>
+      </HelpCenter>
+      <ApplicationDirectory Text="Répertoire des données d'application">
+        <Info Text="Emplacement où les paramètres d'application, les fichiers journaux et d'autres éléments liés à l'application sont stockés."/>
+        <Open Text="Ouvrir le répertoire des données de l'application"/>
+      </ApplicationDirectory>
+      <Database Text="Base de données">
+        <Open Text="Ouvrir l'emplacement de la base de données"/>
+        <Backup Text="Base de données de sauvegarde">
+          <Success Text="La sauvegarde de la base de données s'est terminée avec succès.">
+            <Path Text="Chemin : {0}"/>
+            <UnableToCopy Text="Sauvegarde créée à l'emplacement par défaut. Impossible de copier le fichier de sauvegarde dans le répertoire sélectionné."/>
+          </Success>
+          <Error Text="Erreur lors de la création de la sauvegarde de la base de données.\nConsultez les journaux pour plus de détails."/>
+        </Backup>
+      </Database>
+      <Update>
+        <AutoUpdate Text="Mise à jour automatique"/>
+        <SendUsageData Text="Aidez-nous à nous améliorer en envoyant des données d'utilisation anonymes"/>
+        <Check Text="Vérifier les mises à jour">
+          <Checking Text="Recherche de mises à jour... Veuillez patienter..."/>
+          <Downloading Text="Téléchargement de la mise à jour... Veuillez patienter..."/>
+          <UpToDate Text="Aronium est à jour."/>
+          <Available Text="Une nouvelle version est disponible.">
+            <Run Text="Cliquez ici pour installer maintenant."/>
+          </Available>
+          <Error>
+            <NoConnection Text="Impossible de se connecter au serveur.\nVeuillez vérifier votre connexion Internet et réessayer."/>
+          </Error>
+        </Check>
+        <Ready Text="La mise à jour est disponible">
+          <Install Text="Cliquez ici pour installer la nouvelle version"/>
+          <Description Text="La nouvelle version est prête à être installée.\nPour plus d'informations, visitez la page des notes de version en cliquant sur &amp;quot;Quoi de neuf ?&amp;quot; bouton ci-dessous.">
+            <Install Text="Cliquez sur le bouton &amp;quot;Installer&amp;quot; pour installer les dernières mises à jour."/>
+          </Description>
+          <Versions>
+            <Current Text="Version actuelle:"/>
+            <New Text="Nouvelle version:"/>
+          </Versions>
+          <Ignore Text="Ignorer cette mise à jour"/>
+          <ReleaseNotes Text="Quoi de neuf?"/>
+          <Postpone Text="Pas maintenant"/>
+          <Run Text="Installer"/>
+        </Ready>
+      </Update>
+      <Account Text="Compte">
+        <Email Text="Entrez votre adresse email"/>
+        <Change Text="Changer"/>
+      </Account>
+      <TermsOfUse Text="Conditions d'utilisation">
+        <Info Text="Lisez nos &amp;quot;Conditions d'utilisation&amp;quot; en ligne"/>
+      </TermsOfUse>
+    </About>
+    <Authorization>
+      <Title Text="Veuillez saisir le mot de passe pour accéder aux paramètres de l'application"/>
+    </Authorization>
+    <Database Text="Base de données">
+      <AutoBackup Text="Sauvegarde automatique">
+        <Enabled Text="Activer la sauvegarde automatique"/>
+        <BackupOnStart Text="Base de données de sauvegarde au démarrage de l'application"/>
+        <BackupOnClose Text="Base de données de sauvegarde à la fermeture de l'application"/>
+        <DirectoryPath Text="Emplacement de sauvegarde">
+          <Choose Text="Choisissez l'emplacement de sauvegarde"/>
+          <Info Text="Sélectionnez votre emplacement de sauvegarde. Les fichiers de sauvegarde automatique seront enregistrés dans le répertoire sélectionné."/>
+        </DirectoryPath>
+        <RemoveOldFiles Text="Supprimer les anciens fichiers de sauvegarde">
+          <DaysToKeep Text="Nombre de jours pour conserver les anciens fichiers de sauvegarde"/>
+        </RemoveOldFiles>
+      </AutoBackup>
+    </Database>
+    <RestartRequired Text="Aronium doit être redémarré pour que ces changements prennent effet.">
+      <Title Text="Redémarrage requis"/>
+    </RestartRequired>
+  </Settings>
+  <Document>
+    <Category>
+      <Expenses Text="Dépenses">
+        <Purchase Text="Acheter"/>
+        <StockReturn Text="Retour de stock"/>
+      </Expenses>
+      <Inventory Text="Inventaire">
+        <InventoryCount Text="L'inventaire"/>
+      </Inventory>
+      <Loss Text="Perte">
+        <LossAndDamage Text="Perte et dommages"/>
+      </Loss>
+      <Sales Text="Ventes">
+        <Sales Text="Ventes"/>
+        <Refund Text="Remboursement"/>
+        <Proforma Text="Proforma"/>
+      </Sales>
+    </Category>
+    <Create>
+      <Error Text="Une erreur s'est produite lors de la création du document.\nVeuillez réessayer."/>
+    </Create>
+  </Document>
+  <Invoices Text="Afficher l'historique des ventes">
+    <Title Text="Historique des ventes"/>
+    <Documents Text="Documents">
+      <Customer Text="Client">
+        <Change Text="Changer de client">
+          <Success Text="Le client a changé avec succès."/>
+        </Change>
+      </Customer>
+      <CashRegister>
+        <All Text="Toutes les caisses enregistreuses"/>
+        <Select Text="Sélectionnez la caisse enregistreuse"/>
+      </CashRegister>
+      <Print Text="Imprimer">
+        <CashReceipt Text="Reçu">
+          <PrinterNotFound Text="L'imprimante de service n'est pas sélectionnée ou désactivée. Vérifiez les paramètres de l'imprimante et réessayez."/>
+          <Address Text="Adresse"/>
+          <VatNumber Text="Numéro d'identification fiscale"/>
+          <Date Text="Date"/>
+          <ReceiptNumber Text="Numéro de reçu"/>
+          <Customer Text="Client"/>
+          <Total Text="Le total"/>
+          <Tax Text="Impôt"/>
+          <TotalAmount Text="LE TOTAL"/>
+          <FiscalReceiptNumber Text="Numéro de reçu fiscal"/>
+          <Signature Text="Signification"/>
+          <Stamp Text="PS"/>
+          <Authorization>
+            <Title Text="Veuillez entrer le mot de passe pour imprimer le reçu"/>
+          </Authorization>
+        </CashReceipt>
+        <Pdf Text="Enregistrer en PDF">
+          <Success Text="Document &amp;quot;{0}&amp;quot; enregistré"/>
+        </Pdf>
+        <Error Text="Erreur d'impression du document">
+          <NoService Text="Service d'impression non enregistré"/>
+        </Error>
+        <Refund Text="Remboursement"/>
+        <Preview Text="Aperçu avant impression"/>
+      </Print>
+      <Delete Text="Effacer">
+        <Confirmation>
+          <Title Text="Supprimer le document"/>
+          <Message Text="Voulez-vous vraiment supprimer le document &amp;quot;{0}&amp;quot; ?"/>
+        </Confirmation>
+        <Error Text="Une erreur s'est produite lors de la tentative de suppression du document. Veuillez réessayer"/>
+        <Unauthorized Text="Vous n'êtes pas autorisé à supprimer des documents."/>
+      </Delete>
+      <List Text="Documents">
+        <Document>
+          <Number Text="Nombre"/>
+          <DocumentType Text="Type de document"/>
+          <Warehouse Text="Entrepôt"/>
+          <Customer Text="Client">
+            <Refresh Text="Actualiser la liste des clients">
+              <Complete Text="Clients rechargés"/>
+            </Refresh>
+          </Customer>
+          <Vendor Text="Vendeur">
+            <Refresh Text="Actualiser la liste des fournisseurs">
+              <Complete Text="Fournisseurs rechargés"/>
+            </Refresh>
+          </Vendor>
+          <ExternalDocument Text="Document externe"/>
+          <Date Text="Date"/>
+          <DueDate Text="Date d'échéance"/>
+          <StockDate Text="Date d'inventaire"/>
+          <DateCreated Text="Créé"/>
+          <DateUpdated Text="Mise à jour"/>
+          <CashRegister Text="PDV"/>
+          <OrderNumber Text="Numéro de commande"/>
+          <Warehouse Text="Entrepôt"/>
+          <User Text="Utilisateur"/>
+          <PaymentType Text="Type de paiement"/>
+          <Discount Text="Rabais"/>
+          <Paid Text="Payé"/>
+          <Unpaid Text="Non payé"/>
+          <Total Text="Le total">
+            <Summary>
+              <Subtotal Text="Total:"/>
+              <TotalBeforeTax Text="Total hors taxe:"/>
+              <Tax Text="Impôt:"/>
+              <Total Text="Le total:"/>
+              <Discount Text="Rabais:">
+                <DiscountApplyRule Text="Appliquer la remise avant ou après taxes.\nCette sélection sera utilisée pour les articles et les remises sur le panier.">
+                  <BeforeTax Text="Appliquer la remise avant taxes"/>
+                  <AfterTax Text="Appliquer la remise après impôt"/>
+                </DiscountApplyRule>
+                <DiscountType Text="Sélectionnez le type de remise">
+                  <Percent Text="Pourcentage de remise"/>
+                  <Fixed Text="Montant de la remise"/>
+                </DiscountType>
+              </Discount>
+            </Summary>
+          </Total>
+          <Payments Text="Paiements">
+            <Add Text="Ajouter un paiement"/>
+            <PaymentType Text="Type de paiement"/>
+            <Amount Text="Montant"/>
+            <Date Text="Date"/>
+            <NewPayment Text="Nouveau paiement"/>
+            <Delete Text="Supprimer le paiement">
+              <Confirmation Text="Voulez-vous vraiment supprimer le paiement &amp;quot;{0}&amp;quot; ?"/>
+            </Delete>
+            <Totals>
+              <PaymentsTotal Text="Total des paiements :"/>
+              <DocumentTotal Text="Total des documents :"/>
+            </Totals>
+          </Payments>
+          <Items Text="Éléments de document">
+            <Item>
+              <ProductCode Text="Code"/>
+              <Product Text="Nom"/>
+              <MeasurementUnit Text="Unité de mesure"/>
+              <Quantity Text="Quantité"/>
+              <PriceNoTax Text="Prix ​​hors taxes"/>
+              <Price Text="Prix"/>
+              <Tax Text="Impôt">
+                <Add Text="Ajouter des taxes">
+                  <Tooltip Text="Ajouter la taxe à cet article"/>
+                </Add>
+                <Remove>
+                  <Tooltip Text="Supprimer la taxe de cet article"/>
+                </Remove>
+              </Tax>
+              <Discount Text="Rabais">
+                <DiscountType Text="Sélectionnez le type de remise">
+                  <Percent Text="Pourcentage de remise"/>
+                  <Fixed Text="Montant de la remise"/>
+                </DiscountType>
+                <DiscountApplyRule>
+                  <BeforeTax Text="avant impôt"/>
+                  <AfterTax Text="après impôts"/>
+                </DiscountApplyRule>
+              </Discount>
+              <TotalBeforeTax Text="total hors taxe"/>
+              <Total Text="Le total"/>
+              <TotalBeforeDiscount Text="Total avant remise"/>
+              <Error>
+                <Taxes Text="Taxes en double trouvées. Nom de taxe (&amp;quot;{0}&amp;quot;).\nVeuillez sélectionner des taxes valides et réessayer."/>
+              </Error>
+            </Item>
+            <Delete Text="Supprimer l'élément de document">
+              <Confirmation Text="Voulez-vous vraiment supprimer &amp;quot;{0}&amp;quot; ?"/>
+            </Delete>
+          </Items>
+          <Print>
+            <UnsavedChanges Text="Le document contient des modifications non enregistrées. Voulez-vous enregistrer les modifications avant l'impression ?">
+              <Title Text="Modifications non enregistrées"/>
+            </UnsavedChanges>
+          </Print>
+        </Document>
+      </List>
+      <Count Text="Nombre de documents :"/>
+      <Total Text="Montant total:"/>
+      <AllUsers Text="Afficher tous les utilisateurs"/>
+      <BulkActions Text="Opérations en vrac">
+        <Delete Text="Supprimer les documents sélectionnés">
+          <Confirmation>
+            <Title Text="Supprimer les documents sélectionnés"/>
+            <Message Text="Êtes-vous sûr de vouloir supprimer les documents sélectionnés ?"/>
+          </Confirmation>
+          <Message Text="Suppression des documents... Veuillez patienter..."/>
+        </Delete>
+        <UpdatePaidStatus>
+          <Message Text="Mise à jour du statut payé... Veuillez patienter..."/>
+        </UpdatePaidStatus>
+      </BulkActions>
+    </Documents>
+    <Authorization>
+      <Title Text="Veuillez saisir le mot de passe pour accéder à l'historique des ventes"/>
+    </Authorization>
+  </Invoices>
+  <Feedback Text="Retour">
+    <Title Text="Aidez-nous à améliorer Aronium"/>
+    <Description Text="Merci d'avoir pris le temps de nous faire une suggestion.\nVos commentaires nous aident à améliorer l'application Aronium.">
+      <Contact Text="N'hésitez pas à nous contacter à tout moment au"/>
+    </Description>
+    <Message>
+      <Name Text="Votre nom"/>
+      <Email Text="Adresse e-mail"/>
+      <Subject Text="Matière"/>
+      <Message Text="Un message"/>
+      <Rating Text="Note globale"/>
+    </Message>
+    <Send Text="Envoyer des commentaires"/>
+    <Confirmation>
+      <Title Text="Merci!"/>
+      <Message Text="Vos commentaires sont envoyés. Nous l'utiliserons pour améliorer Aronium."/>
+    </Confirmation>
+  </Feedback>
+  <Security>
+    <Key>
+      <Management Text="La gestion">
+        <Description Text="Contrôle l'accès à la section de gestion"/>
+      </Management>
+      <Settings Text="Paramètres">
+        <Description Text="Contrôle l'accès aux paramètres"/>
+      </Settings>
+      <VoidOrder Text="Ordre annulé">
+        <Description Text="Contrôle si l'utilisateur est autorisé à annuler la commande complète"/>
+      </VoidOrder>
+      <VoidItem Text="Objet annulé">
+        <Description Text="Contrôle si l'utilisateur est autorisé à annuler un seul article dans l'ordre ouvert"/>
+      </VoidItem>
+      <LockSale Text="Vente de serrure"/>
+      <UnlockSale Text="Débloquer la vente"/>
+      <SplitOrder Text="Ordre fractionné">
+        <Description Text="Permet à l'utilisateur de transférer tout ou partie d'une commande à un autre utilisateur ou table (numéro de commande)"/>
+      </SplitOrder>
+      <Discount Text="Appliquer la remise"/>
+      <DeleteDocument Text="Supprimer le document"/>
+      <ClosingDay Text="Fin de la journée">
+        <Description Text="Contrôle l'accès à la section jour de fermeture"/>
+      </ClosingDay>
+      <Refund Text="Remboursement">
+        <Description Text="Permet à l'utilisateur de rembourser une vente précédemment effectuée.\nCeci créera un nouveau document &amp;quot;Remboursement&amp;quot; et remettra automatiquement les quantités en stock."/>
+      </Refund>
+      <OpenOrders Text="Voir toutes les commandes ouvertes">
+        <Description Text="Contrôle si l'utilisateur est autorisé à voir toutes les commandes ouvertes.\nCette option est disponible avec les plans d'étage activés."/>
+      </OpenOrders>
+      <SalesHistory Text="Afficher l'historique des ventes">
+        <Receipt Text="Réimprimer le reçu">
+          <Description Text="Contrôle si l'utilisateur est autorisé à imprimer le reçu à partir de l'historique des ventes."/>
+        </Receipt>
+      </SalesHistory>
+      <StartingCash Text="Cash de départ">
+        <Description Text="Contrôle l'accès à la section de caisse de départ"/>
+      </StartingCash>
+      <UserProfile Text="Profil de l'utilisateur"/>
+    </Key>
+  </Security>
+  <Guide>
+    <Menu>
+      <Title Text="Ouvrir le menu principal"/>
+      <Content Text="Cliquez ici pour ouvrir le menu principal et accéder à la section de gestion"/>
+    </Menu>
+    <Layout>
+      <SearchBox Text="Recherchez des produits par nom, code-barres ou code.">
+        <Title Text="Recherche de produit"/>
+      </SearchBox>
+    </Layout>
+    <Dismiss>
+      <Title Text="Ignorer la visite guidée"/>
+      <Confirmation Text="Voulez-vous vraiment masquer ces astuces ?"/>
+    </Dismiss>
+  </Guide>
+  <Layout>
+    <Visual>
+      <Item>
+        <Edit Text="Modifier l'apparence visuelle">
+          <Color Text="Couleur"/>
+          <Image Text="Image">
+            <Select Text="Sélectionnez l'image"/>
+            <Clear Text="Image claire"/>
+          </Image>
+        </Edit>
+      </Item>
+    </Visual>
+  </Layout>
+  <OpenOrders Text="Voir les ventes ouvertes">
+    <Total Text="MONTANT TOTAL"/>
+    <NoOrders Text="Pas de vente ouverte"/>
+    <Authorization>
+      <Title Text="Veuillez entrer le mot de passe pour accéder aux ventes ouvertes"/>
+    </Authorization>
+  </OpenOrders>
+  <StartingCash Text="Encaissement / Sortie">
+    <Type>
+      <CashIn Text="Ajouter de l'argent"/>
+      <CashOut Text="Retirer de l'argent"/>
+    </Type>
+    <Amount Text="Montant">
+      <Reason Text="La description">
+        <Tooltip Text="Saisissez la raison de l'ajout ou de la suppression d'espèces..."/>
+      </Reason>
+    </Amount>
+    <Hide Text="Ne plus afficher cela"/>
+    <Entries Text="Entrées de caisse">
+      <NoDescription Text="&lt;No description&gt;"/>
+      <NoEntries Text="Pas d'enregistrements"/>
+    </Entries>
+    <Saved Text="L'argent de départ a été économisé avec succès"/>
+  </StartingCash>
+  <Account>
+    <FirstName Text="Prénom"/>
+    <LastName Text="Nom de famille"/>
+    <LastName Text="Nom de famille"/>
+    <Email Text="E-mail"/>
+    <Password Text="Mot de passe">
+      <Confirmation Text="Confirmation mot de passe">
+        <Error Text="Le mot de passe et la confirmation du mot de passe doivent correspondre"/>
+      </Confirmation>
+    </Password>
+    <License>
+      <Info Text="Licence">
+        <Data Text="Données de licence">
+          <LicensedTo Text="Autorisé à"/>
+          <Email Text="E-mail"/>
+          <StoreId Text="Identifiant du magasin"/>
+          <Id Text="Identifiant de licence"/>
+        </Data>
+        <Products Text="Des produits">
+          <Id Text="Identifiant"/>
+          <Name Text="Nom"/>
+          <ValidUntil Text="Valable jusque"/>
+          <LicenseType Text="Type de licence"/>
+        </Products>
+        <NoLicense>
+          <Info Text="Visitez www.aronium.com pour en savoir plus sur les fonctionnalités premium"/>
+        </NoLicense>
+        <Refresh Text="Actualiser la licence">
+          <Success Text="Licence téléchargée avec succès."/>
+        </Refresh>
+        <Copy Text="Copier la licence dans un fichier"/>
+        <Load Text="Charger la licence à partir du fichier"/>
+        <UnlicensedProducts Text="Produits sans licence"/>
+      </Info>
+      <Login Text="Connectez-vous à votre compte">
+        <NotRegistered Text="Non enregistré?">
+          <SignUp Text="S'inscrire maintenant!"/>
+        </NotRegistered>
+        <SignIn Text="S'identifier"/>
+      </Login>
+      <Register Text="Enregistrer un nouveau compte">
+        <AlreadyRegistered Text="Déjà enregistré?">
+          <SignIn Text="Connectez vous maintenant!"/>
+        </AlreadyRegistered>
+        <CreateAccount Text="Créer un compte"/>
+        <Store Text="Créez votre boutique">
+          <Details Text="Prenons une minute pour configurer votre boutique.\nLes données de votre entreprise seront mises à jour et la licence sera générée automatiquement.">
+            <CompanyName Text="Nom de la compagnie"/>
+            <Address Text="Adresse"/>
+            <ZipCode Text="Code postal"/>
+            <TaxNumber Text="Numéro d'identification fiscale"/>
+            <City Text="Ville"/>
+            <Country Text="Pays"/>
+          </Details>
+          <Create Text="Créer un magasin et générer une licence"/>
+        </Store>
+        <Success Text="Compte créé avec succès"/>
+      </Register>
+      <SelectStore Text="Sélectionnez le magasin">
+        <Info Text="Sélectionnez un magasin dans la liste ci-dessous pour lequel vous souhaitez charger une licence.">
+          <Register Text="Une fois que vous avez sélectionné un magasin, il vous sera demandé d'enregistrer tous les produits sans licence sous la licence de ce magasin."/>
+        </Info>
+        <NoStores Text="Aucun magasin trouvé">
+          <Info Text="Il semble qu'il n'y ait aucun magasin associé au compte &amp;quot;{0}&amp;quot;. Afin d'activer votre licence, vous devez avoir une boutique qui lui est associée."/>
+          <Reload Text="Veuillez d'abord créer un magasin, puis cliquez sur le bouton &amp;quot;Actualiser&amp;quot; ci-dessous pour continuer."/>
+          <Add Text="Ouvrez My Aronium pour créer votre première boutique"/>
+        </NoStores>
+        <Successfull Text="Vous vous êtes connecté avec succès">
+          <Info Text="Si la licence existe pour le magasin sélectionné, elle sera automatiquement téléchargée"/>
+        </Successfull>
+      </SelectStore>
+      <StartTrial Text="Commencer procès">
+        <Info Text="Sélectionnez l'option ci-dessous pour commencer l'essai pour tous les produits sans licence"/>
+        <SelectedStore Text="Magasin sélectionné :">
+          <Change Text="Utiliser un autre magasin"/>
+        </SelectedStore>
+        <Now Text="Commencer l'essai maintenant"/>
+      </StartTrial>
+      <Load Text="Charger la licence à partir du fichier">
+        <Successful Text="Licence chargée avec succès"/>
+      </Load>
+      <InvalidLicense Text="Licence invalide ou manquante">
+        <Info Text="Il manque une licence valide à un ou plusieurs produits.">
+          <SignInOrLoadFromFile Text="Veuillez vous connecter à votre compte pour télécharger une licence ou charger une licence existante à partir d'un fichier."/>
+          <FollowInstructions Text="Veuillez suivre les instructions ci-dessous pour continuer."/>
+        </Info>
+        <Hide Text="Ne plus afficher cela pour ces produits"/>
+      </InvalidLicense>
+    </License>
+    <Switch Text="Connectez-vous avec un autre compte"/>
+    <SignOut Text="Déconnexion">
+      <Successful Text="Vous vous êtes déconnecté avec succès"/>
+    </SignOut>
+    <Error>
+      <ExistingAccount Text="L'utilisateur avec l'adresse e-mail spécifiée existe déjà."/>
+      <Unauthorized Text="Nom d'utilisateur ou mot de passe erroné. Veuillez vérifier vos informations d'identification et réessayer."/>
+    </Error>
+  </Account>
+  <Validations>
+    <Info Text="Voir plus de détails et comment résoudre ce problème sur">
+      <Community Text="notre communauté"/>
+      <Or Text="ou alors"/>
+      <ContactSupport Text="contactez notre support"/>
+    </Info>
+    <Cancel Text="Fermer l'application"/>
+    <Confirm Text="Je comprends, continuez avec le démarrage de l'application"/>
+    <Print>
+      <Warning>
+        <CustomTemplates Text="Nous avons détecté que vous utilisez des modèles de reçus ou de factures personnalisés. En raison des modifications apportées à la structure de la base de données dans cette version, ces modèles peuvent ne plus fonctionner.\nVous pourrez utiliser les modèles par défaut, de sorte que vos opérations quotidiennes ne sont pas bloquées.\n\nSi vous souhaitez toujours utiliser les anciens modèles, vous devez arrêter l'application démarrez maintenant et revenez à l'ancienne version.">
+          <Title Text="ATTENTION! LES MODÈLES D'IMPRESSION PERSONNALISÉS PEUVENT NE PAS FONCTIONNER !"/>
+        </CustomTemplates>
+      </Warning>
+    </Print>
+    <Refund>
+      <Invalid Text="Le remboursement n'est pas valide"/>
+    </Refund>
+  </Validations>
+  <Print>
+    <Error Text="Une erreur d'impression s'est produite">
+      <CustomTemplate Text="Une erreur dans le modèle personnalisé a été détectée !\nVeuillez contacter le support technique d'Aronium afin de résoudre les problèmes potentiels avec votre modèle d'impression personnalisé.">
+        <Continue Text="Souhaitez-vous continuer à imprimer en utilisant le modèle par défaut ?"/>
+      </CustomTemplate>
+    </Error>
+  </Print>
+</Language><?xml version="1.0" encoding="UTF-8"?><Language code="fr" name="Français">
+  <Buttons>
+    <Yes Text="Oui"/>
+    <Ok Text="d'accord"/>
+    <No Text="Non"/>
+    <Cancel Text="Annuler"/>
+    <Save Text="Sauvegarder"/>
+    <Close Text="Fermer"/>
+    <Add Text="Ajouter"/>
+    <New Text="Nouveau"/>
+    <Edit Text="Éditer"/>
+    <Cut Text="Couper"/>
+    <Copy Text="Copie"/>
+    <Paste Text="Coller"/>
+    <Delete Text="Effacer"/>
+    <Refresh Text="Rafraîchir"/>
+    <Login Text="CONNEXION"/>
+    <Logout Text="Déconnexion"/>
+    <Print Text="Imprimer"/>
+    <Pdf Text="PDF"/>
+    <SavePdf Text="Enregistrer en PDF"/>
+    <Excel Text="Excel"/>
+    <Hide Text="Cacher"/>
+    <FirstPage Text="Première page"/>
+    <LastPage Text="Dernière page"/>
+    <NextPage Text="Page suivante"/>
+    <PreviousPage Text="Page précédente"/>
+    <Continue Text="Continuer"/>
+    <Clear Text="Dégager"/>
+    <Exit Text="Sortir"/>
+    <Search Text="Rechercher"/>
+    <Ignore Text="Ignorer"/>
+    <Retry Text="Réessayez"/>
+    <DeleteAll Text="Tout supprimer"/>
+    <Skip Text="Sauter"/>
+    <Restart Text="Redémarrer"/>
+    <SaveAndClose Text="Sauvegarder et fermer"/>
+    <Help Text="Aider"/>
+    <Back Text="Dos"/>
+    <LearnMore Text="Apprendre encore plus"/>
+    <Done Text="Fait"/>
+    <Send Text="Envoyer"/>
+    <WhatsThis Text="Qu'est-ce que c'est ça?"/>
+    <Maximize Text="Maximiser"/>
+    <Restore Text="Restaurer"/>
+    <Browse Text="Parcourir"/>
+  </Buttons>
+  <Bootstrap>
+    <Initializing Text="Initialisation de l'application..."/>
+    <Load>
+      <Components Text="Chargement des composants de l'application..."/>
+      <Modules Text="Chargement et initialisation des modules..."/>
+      <Products Text="Chargement des produits...">
+        <Error Text="Erreur de chargement des produits.">
+          <Info Text="Certains produits peuvent ne pas être éligibles à la vente. Vérifiez les produits ayant échoué et réessayez."/>
+          <DuplicateBarcode Text="Code à barres en double &amp;quot;{0}&amp;quot;"/>
+          <DuplicateCode Text="Code en double &amp;quot;{0}&amp;quot;"/>
+          <Copy Text="Copier dans le presse-papier"/>
+        </Error>
+      </Products>
+      <CashRegister Text="Chargement des données de la caisse..."/>
+      <ScanTypes Text="Types de numérisation..."/>
+    </Load>
+    <Connect Text="Connexion à la base de données...">
+      <NoDataProvider Text="Module de connexion à la base de données indisponible.\nVeuillez contacter votre administrateur."/>
+    </Connect>
+    <Error Text="Une erreur s'est produite lors de la tentative de démarrage de l'application. Veuillez contacter l'administrateur système."/>
+    <Completed Text="Lancer l'application"/>
+    <BackupDatabase Text="Validation de la version de la base de données..."/>
+    <Migrations Text="Vérification de la base de données...">
+      <Failed Text="Échec de la migration de la base de données !"/>
+    </Migrations>
+    <RestartRequired Text="Le redémarrage de l'application est requis pour que les modifications prennent effet.\nCliquez sur le bouton ci-dessous pour redémarrer l'application."/>
+    <ValidateLicense Text="Validation de la licence..."/>
+    <Onboarding Text="Vérifier le statut d'intégration..."/>
+    <CustomerDisplay Text="Initialisation de l'affichage client..."/>
+    <PrinterStatus Text="Vérifier l'état de l'imprimante..."/>
+    <VerifyVersion Text="Vérification de la version de l'application..."/>
+  </Bootstrap>
+  <Onboarding>
+    <Welcome Text="Bienvenue">
+      <Info Text="Configurons votre boutique et les données de base de votre application.\nLe processus d'intégration ne prendra que quelques minutes."/>
+      <Start Text="DÉMARRER"/>
+    </Welcome>
+    <Back Text="Dos"/>
+    <Skip Text="Passer l'intégration"/>
+    <Hide Text="Ne plus montrer ça"/>
+    <Next Text="Sauter"/>
+    <Continue Text="Enregistrer continuer"/>
+    <PriceDisplay Text="Affichage des prix">
+      <Info Text="Choisissez si les prix sont affichés et imprimés avant ou après taxes"/>
+      <BeforeTax Text="Avant impôt">
+        <Description Text="Les prix seront affichés et imprimés sur le ticket de caisse hors taxes"/>
+      </BeforeTax>
+      <AfterTax Text="Après impôts">
+        <Description Text="Les prix seront affichés et imprimés dans le reçu avec les taxes incluses"/>
+      </AfterTax>
+      <DiscountApplyRule>
+        <Info Text="Les rabais seront appliqués avant ou après taxes en fonction de cette sélection. Vous pouvez modifier les règles de remise dans les paramètres à tout moment."/>
+      </DiscountApplyRule>
+    </PriceDisplay>
+    <Layout Text="Choisissez la mise en page">
+      <LearnMore Text="En savoir plus sur les mises en page et l'espace de travail"/>
+      <Standard Text="Standard">
+        <Description Text="Utilisez cette disposition si vous utilisez des codes-barres ou si un clavier physique est connecté à votre ordinateur."/>
+      </Standard>
+      <TouchScreen Text="Visuel">
+        <Description Text="Utilisez cette mise en page si vous souhaitez afficher visuellement vos produits et groupes sur l'écran de vente."/>
+      </TouchScreen>
+      <EnableVirtualKeyboard Text="Activer le clavier virtuel"/>
+    </Layout>
+    <Registration Text="Inscription">
+      <Info Text="Veuillez entrer votre adresse e-mail afin que nous puissions vous fournir une assistance plus personnalisée.">
+        <Email Text="Cet e-mail sera défini sur le compte administrateur par défaut et peut être utilisé pour réinitialiser le mot de passe. Vous pouvez modifier cette adresse e-mail à tout moment."/>
+      </Info>
+      <Email Text="Votre adresse email">
+        <Privacy Text="Votre email est strictement confidentiel. Nous utiliserons votre e-mail pour vous fournir une assistance plus personnalisée et pour vous envoyer les dernières mises à jour, uniquement si vous le souhaitez.\nNous détestons également le &amp;quot;spam&amp;quot;."/>
+      </Email>
+    </Registration>
+    <UserProfile>
+      <Title Text="Configurons votre compte personnel"/>
+      <Info Text="Veuillez entrer votre nom et les identifiants de connexion utilisés pour l'accès administrateur."/>
+      <LearnMore Text="En savoir plus sur les utilisateurs et les identifiants par défaut"/>
+      <FirstName Text="Prénom"/>
+      <LastName Text="Nom de famille"/>
+      <Email Text="E-mail">
+        <Info Text="Cet e-mail sera utilisé comme e-mail de récupération pour votre compte.\nAssurez-vous d'avoir saisi une adresse e-mail valide afin de pouvoir réinitialiser votre mot de passe par e-mail."/>
+        <Missing Text="Si vous n'entrez pas d'adresse e-mail valide, vous risquez d'être bloqué.\nEn cas d'oubli de votre mot de passe, il n'y aura aucun moyen de le récupérer sans adresse e-mail valide.">
+          <Title Text="L'adresse e-mail n'est pas définie"/>
+          <Confirmation Text="Voulez-vous continuer sans adresse e-mail ?"/>
+        </Missing>
+      </Email>
+      <Password Text="Mot de passe">
+        <Errors>
+          <Empty Text="Le mot de passe ne répond pas aux critères requis. Le mot de passe doit être défini et comporter au moins 4 caractères"/>
+          <ConfirmationError Text="La confirmation du mot de passe ne correspond pas. Veuillez saisir les mêmes valeurs dans les champs de mot de passe et de confirmation de mot de passe."/>
+        </Errors>
+      </Password>
+      <ConfirmPassword Text="Confirmez le mot de passe"/>
+      <PasswordPolicy Text="Le mot de passe doit comporter au moins 4 caractères"/>
+    </UserProfile>
+    <Completed Text="Intégration terminée">
+      <Info Text="Toutes nos félicitations! Vous êtes prêt et prêt à partir.\nEnsuite, ouvrez la section &amp;quot;Gestion&amp;quot; pour ajouter des produits et commencer à vendre."/>
+      <Finish Text="Fermer et continuer"/>
+    </Completed>
+  </Onboarding>
+  <BusinessDay>
+    <Close>
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour fermer le jour ouvrable"/>
+      </Authorization>
+    </Close>
+    <Select Text="Sélectionnez le jour ouvrable">
+      <EnableSelection Text="(Cliquez sur la date pour changer le jour ouvrable)"/>
+    </Select>
+  </BusinessDay>
+  <Application>
+    <Close Text="Quitter l'application">
+      <Info Text="Êtes-vous sûr de vouloir quitter l'application ?"/>
+      <ShutDown Text="Quitter l'application"/>
+      <Restart Text="Redémarrer l'application"/>
+      <TurnOffComputer Text="Éteignez le PC"/>
+    </Close>
+    <FullScreen Text="Plein écran"/>
+    <Exit Text="Quitter l'application"/>
+    <Menu Text="Menu"/>
+    <RestartRequired Text="Redémarrage requis">
+      <Info Text="Le redémarrage de l'application est requis pour que les modifications prennent effet. Voulez-vous redémarrer l'application maintenant ?"/>
+    </RestartRequired>
+    <ReloadProducts Text="Recharger des produits">
+      <Info Text="Les produits sont modifiés. Voulez-vous recharger des produits maintenant ?"/>
+    </ReloadProducts>
+  </Application>
+  <Period Text="Période">
+    <Start Text="Démarrer"/>
+    <End Text="Finir"/>
+    <Preset Text="Période prédéfinie">
+      <Today Text="Aujourd'hui"/>
+      <Yesterday Text="Hier"/>
+      <ThisWeek Text="Cette semaine"/>
+      <LastWeek Text="La semaine dernière"/>
+      <ThisMonth Text="Ce mois-ci"/>
+      <LastMonth Text="Le mois dernier"/>
+      <ThisYear Text="Cette année"/>
+      <LastYear Text="L'année dernière"/>
+    </Preset>
+  </Period>
+  <Login Text="Connexion">
+    <Password Text="Mot de passe">
+      <Forgot Text="Mot de passe oublié?"/>
+    </Password>
+    <Error Text="Échec de la connexion. Vérifiez votre mot de passe et réessayez."/>
+    <Authentication Text="Utilisateur en ligne">
+      <Failed Text="Utilisateur non trouvé. Vérifiez votre mot de passe et réessayez."/>
+    </Authentication>
+    <Reset Text="Réinitialiser le mot de passe">
+      <LearnMore Text="En savoir plus sur la réinitialisation de votre mot de passe"/>
+      <Email Text="Entrer l'adresse e-mail">
+        <Info Text="Saisissez l'adresse e-mail associée à l'utilisateur pour lequel vous souhaitez réinitialiser le mot de passe.\nNous vous enverrons un code de vérification à l'adresse e-mail que vous saisissez ci-dessous."/>
+        <Required Text="L'e-mail est requis"/>
+        <EmailAddress Text="Adresse e-mail">
+          <Tooltip Text="Entrez votre adresse email"/>
+        </EmailAddress>
+        <ExistingCode Text="J'ai le code. Emmenez-moi à l'étape suivante."/>
+      </Email>
+      <Code Text="Vérifier le code">
+        <Info Text="Vérifiez vos e-mails - nous vous avons envoyé un code d'autorisation que vous devez saisir dans la case ci-dessous.\nSi vous n'avez pas reçu d'e-mail avec le code d'autorisation, veuillez vérifier votre dossier spam ou réessayer d'envoyer un e-mail."/>
+        <Email Text="Le code d'autorisation est envoyé à {0}."/>
+        <AuthorizationCode Text="Code d'autorisation">
+          <Tooltip Text="Entrez le code d'autorisation ici..."/>
+        </AuthorizationCode>
+        <Verify Text="Vérifier le code"/>
+      </Code>
+      <Password Text="Entrez un nouveau mot de passe">
+        <Info Text="Saisissez un nouveau mot de passe et une confirmation de mot de passe pour votre compte local.\nLes champs du nouveau mot de passe et de confirmation du nouveau mot de passe doivent correspondre.\n\nUne fois que vous avez terminé, cliquez sur le bouton &amp;quot;OK&amp;quot; pour réinitialiser votre mot de passe."/>
+        <NewPassword Text="Nouveau mot de passe"/>
+        <NewPasswordConfirmation Text="Confirmer le nouveau mot de passe"/>
+        <InUse Text="Le mot de passe spécifié est déjà pris. Veuillez saisir un autre mot de passe et réessayer."/>
+        <User Text="Utilisateur : {0}"/>
+        <SetPassword Text="Définissez votre nouveau mot de passe"/>
+        <Success Text="Le mot de passe a été changé avec succès"/>
+      </Password>
+      <Error>
+        <Expired Text="Votre code d'autorisation a expiré.\nVeuillez demander un nouveau code d'autorisation."/>
+        <InvalidCode Text="Code invalide. Veuillez saisir un code valide et réessayer."/>
+        <NoSuchUser Text="L'utilisateur avec l'adresse e-mail spécifiée &amp;quot;{0}&amp;quot; n'existe pas.\nVeuillez entrer une adresse e-mail valide et réessayer."/>
+        <InvalidEmailAddress Text="L'adresse email n'est pas valide. Veuillez saisir une adresse e-mail valide et réessayer."/>
+        <LimitReached Text="Vous avez atteint la limite de demandes de réinitialisation de mot de passe.\nVous pouvez réessayer dans 24 heures."/>
+        <GeneralError Text="Une erreur s'est produite lors de la tentative d'envoi de la demande de réinitialisation du mot de passe.\nVeuillez réessayer plus tard."/>
+      </Error>
+    </Reset>
+  </Login>
+  <Order>
+    <List Text="Ouvrir la liste des commandes">
+      <Select Text="Sélectionner la commande"/>
+    </List>
+    <New Text="Nouvelle vente"/>
+    <Estimate Text="Fermer à clé">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour verrouiller la vente"/>
+      </Authorization>
+      <Created Text="Commande verrouillée avec succès"/>
+      <Clear Text="Débloquez cette vente">
+        <Authorization>
+          <Title Text="Veuillez entrer le mot de passe pour débloquer la vente"/>
+        </Authorization>
+        <Success Text="La vente est débloquée."/>
+      </Clear>
+      <Locked Text="Vente verrouillée">
+        <Info Text="La modification d'une vente verrouillée n'est pas autorisée."/>
+      </Locked>
+      <Issued Text="Cette vente est déjà verrouillée.\nLa modification d'une vente verrouillée n'est pas autorisée."/>
+      <NoItems Text="Aucun élément à verrouiller."/>
+    </Estimate>
+    <Transfer Text="Transfert">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour accéder à l'option de transfert"/>
+      </Authorization>
+      <All Text="Transférer toutes les commandes">
+        <Confirmation Text="Le transfert de toutes les commandes vers un autre utilisateur est irréversible !\n\nVoulez-vous vraiment transférer toutes vos commandes vers {0} ?"/>
+        <Success Text="Toutes les commandes ont été transférées avec succès."/>
+        <Error Text="Une erreur s'est produite lors du transfert des commandes vers l'utilisateur sélectionné.\nVeuillez réessayer."/>
+      </All>
+      <Orders Text="Commandes ouvertes"/>
+      <OrderNumber Text="Numéro de commande">
+        <Select Text="Sélectionner la commande"/>
+      </OrderNumber>
+      <Quantity Text="Sélectionnez les quantités à transférer"/>
+      <User Text="Utilisateur">
+        <Current Text="La commande appartient déjà à l'utilisateur sélectionné."/>
+      </User>
+      <Rounds Text="Tours de transfert">
+        <Summary Text="Items commandés"/>
+        <Selection Text="Sélectionnez les tours à transférer"/>
+      </Rounds>
+      <Items Text="Items commandés">
+        <Selected Text="Éléments sélectionnés pour le transfert">
+          <NoItems Text="Sélectionnez les éléments à transférer"/>
+        </Selected>
+        <All Text="Transférer tout"/>
+        <Back Text="Enlever tout"/>
+        <InvalidQuantity Text="Le transfert de l'élément sélectionné n'est pas autorisé">
+          <Info Text="La quantité totale des articles sélectionnés est inférieure à la quantité sélectionnée pour le transfert.\nVérifiez la quantité de transfert, les articles annulés et réessayez."/>
+        </InvalidQuantity>
+        <BundledQuantity Text="Changement de quantité non autorisé">
+          <Info Text="L'article appartient à un groupe. La modification de la quantité sur les articles de groupe n'est pas autorisée."/>
+        </BundledQuantity>
+      </Items>
+      <CurrentOrder Text="Transfert à la même commande">
+        <Confirmation Text="Vous transférez des articles vers la même commande. Aucune modification ne sera apportée.\nVoulez-vous vraiment continuer ? "/>
+      </CurrentOrder>
+      <Failed Text="Erreur de transfert d'éléments">
+        <Info Text="Une erreur s'est produite lors de la tentative de transfert d'éléments. Veuillez réessayer."/>
+      </Failed>
+      <Completed Text="Transfert terminé avec succès"/>
+      <NoItems Text="Aucun élément à transférer"/>
+      <Discount>
+        <Warning Text="Remise fixe">
+          <Info Text="La commande en cours a une remise fixe sur le panier. Le transfert d'articles de cette commande effacera la remise sur le panier.\n\nVoulez-vous continuer ?"/>
+        </Warning>
+      </Discount>
+    </Transfer>
+    <Void Text="Annuler">
+      <Authorization>
+        <Title Text="Veuillez entrer le mot de passe pour annuler cette commande"/>
+      </Authorization>
+      <Confirm Text="Ordre annulé">
+        <Info Text="Voulez-vous vraiment annuler cette commande ?"/>
+      </Confirm>
+      <Completed Text="Commande annulée avec succès"/>
+      <NoItems Text="Aucun article à annuler"/>
+    </Void>
+    <Rounds>
+      <Repeat Text="Répéter le tour">
+        <NoItems Text="Aucun article en commande.\nLa répétition du tour ne peut être effectuée que si le tour existe."/>
+        <NoQuantities Text="Au tour sélectionné #{0}, il n'y a pas d'articles avec des quantités suffisantes pour être répétés"/>
+        <Bundle Text="Les articles appartiennent à un groupe">
+          <Info Text="L'opération de répétition n'est pas autorisée pour les éléments groupés."/>
+        </Bundle>
+      </Repeat>
+      <New Text="Nouveau tour">
+        <NoItems Text="Il n'y a aucun article dans votre commande pour créer une nouvelle tournée.\nAjoutez des articles à la commande et réessayez."/>
+        <NoUnsavedItems Text="Tous les éléments dans l'ordre enregistrés. Nouveau cycle commencé."/>
+      </New>
+      <SelectAll Text="Tout sélectionner"/>
+      <SelectNone Text="Rejeter la totalité"/>
+      <Total Text="Le total:"/>
+      <NoItems Text="Aucun élément sélectionné"/>
+    </Rounds>
+    <Comment Text="Commenter">
+      <Add Text="Sélectionnez l'existant ou écrivez votre commentaire pour l'élément &amp;quot;{0}&amp;quot;"/>
+      <Insert Text="Écrivez un commentaire ici..."/>
+      <Change Text="Ajouter un commentaire">
+        <Forbidden Text="La modification de l'élément sélectionné n'est pas autorisée">
+          <Info Text="L'article &amp;quot;{0}&amp;quot; est commandé et confirmé.\nLa modification d'un article confirmé n'est pas autorisée."/>
+        </Forbidden>
+        <NoItem Text="Aucun élément sélectionné.\nSélectionnez un élément auquel vous souhaitez ajouter un commentaire et réessayez."/>
+      </Change>
+    </Comment>
+    <Subtotal Text="Total"/>
+    <Tax Text="Impôt"/>
+    <Total Text="LE TOTAL"/>
+    <Checkout Text="Paiement"/>
+    <Save Text="Enregistrer la vente"/>
+    <Refund Text="Remboursement">
+      <Authorization Text="Mot de passe requis pour l'opération de remboursement"/>
+      <Title Text="Rembourser des articles"/>
+      <CartDiscountApplied Text="Remise panier appliquée">
+        <Info Text="La remise sur le panier est appliquée et calculée au total.\nSi un remboursement partiel est utilisé, la remise sur le panier sera calculée sur les articles remboursés."/>
+      </CartDiscountApplied>
+      <Total Text="MONTANT TOTAL DU REMBOURSEMENT"/>
+      <ReceiptNumber Text="Numéro de reçu"/>
+      <PaymentType Text="Remboursement type de paiement"/>
+      <Description Text="Entrez le numéro de reçu et le type de paiement pour confirmer le remboursement"/>
+      <SelectAll Text="Sélectionner / Désélectionner tout"/>
+      <Print>
+        <PrinterNotFound Text="Imprimante de remboursement non sélectionnée."/>
+      </Print>
+      <MultyplePaymentTypes Text="Le document sélectionné contient plusieurs types de paiement. Sélectionnez l'option ci-dessous pour copier les types de paiement dans ce remboursement.">
+        <PartialRefund Text="L'utilisation de plusieurs types de paiement à partir du document de vente original n'est pas disponible pour un remboursement partiel."/>
+        <Copy Text="Copier les types de paiement à partir du document original"/>
+      </MultyplePaymentTypes>
+    </Refund>
+    <Items>
+      <Name Text="Nom du produit"/>
+      <Quantity Text="Quantité">
+        <Change Text="Modifier la quantité">
+          <Info Text="Entrez la quantité pour l'article suivant"/>
+          <Item Text="Élément &amp;quot;{0}&amp;quot;"/>
+          <Forbidden Text="Le changement de quantité n'est pas autorisé">
+            <Info Text="L'élément &amp;quot;{0}&amp;quot; est confirmé.\nLa modification d'un élément confirmé n'est pas autorisée."/>
+          </Forbidden>
+          <Product Text="Produit &amp;quot;{0}&amp;quot;\nQuantité par défaut : {1:#,#.000}"/>
+          <Bundled Text="Changement de quantité non autorisé">
+            <Info Text="Le changement de quantité sur les articles groupés n'est pas autorisé."/>
+          </Bundled>
+        </Change>
+        <Invalid Text="Quantité invalide. Saisissez une quantité valide et réessayez."/>
+      </Quantity>
+      <Price Text="Prix">
+        <Change Text="Change le prix">
+          <Product Text="Produit &amp;quot;{0}&amp;quot;\nPrix : {1:#,#.00}"/>
+        </Change>
+      </Price>
+      <Total Text="Montant"/>
+      <Empty Text="Pas d'objet">
+        <Info Text="Ajoutez des produits au reçu à l'aide d'un code-barres, d'un code ou recherchez en appuyant sur le bouton F3"/>
+      </Empty>
+      <Start Text="Démarrer"/>
+      <Page Text="Page"/>
+      <Add>
+        <Error Text="Erreur lors de l'ajout de l'élément. Données d'article non valides.\nVérifiez le prix et la quantité de l'article et réessayez."/>
+      </Add>
+      <Void>
+        <NoItems Text="L'annulation de l'élément &amp;quot;{0}&amp;quot; n'est pas autorisée. Quantité insuffisante."/>
+        <Bundle Text="L'article appartient à un groupe. La suppression de cet élément supprimera tous les éléments du même groupe.\n\nVoulez-vous vraiment supprimer tous les éléments de ce groupe ?">
+          <Title Text="Suppression d'un élément de groupe"/>
+        </Bundle>
+      </Void>
+    </Items>
+    <Print>
+      <User Text="Utilisateur : {0}"/>
+      <Time Text="Heure : {0}"/>
+      <Number Text="Numéro de commande : {0}"/>
+      <Table Text="Tableau : {0}"/>
+      <Estimate Text="ESTIMATION">
+        <Discount Text="Rabais"/>
+        <Total Text="LE TOTAL:"/>
+        <Footer Text="Ceci n'est pas un reçu.\nVeuillez attendre le reçu final."/>
+      </Estimate>
+      <Kitchen>
+        <TableAndRound Text="Tableau : {0}. Tour 1}"/>
+        <NumberAndRound Text="Commande : {0}. Tour 1}"/>
+      </Kitchen>
+      <Dialog>
+        <Title Text="Comment le client aimerait-il son reçu ?"/>
+        <Change Text="Changer"/>
+        <Receipt Text="Imprimer le reçu"/>
+        <Invoice Text="La facture d'impression"/>
+        <Email Text="Envoyer un e-mail">
+          <Recipient Text="Destinataire du courriel">
+            <Title Text="Entrez les détails de l'e-mail et cliquez sur le bouton &amp;quot;Envoyer&amp;quot; pour continuer"/>
+            <EmailAddress Text="Adresse du destinataire">
+              <Description Text="Entrez l'adresse e-mail du client"/>
+              <AddCustomer Text="Ajouter un client"/>
+            </EmailAddress>
+            <Bcc Text="Cci">
+              <Description Text="Ajouter des destinataires Cci"/>
+            </Bcc>
+            <Subject Text="Matière">
+              <Description Text="Entrez la ligne d'objet"/>
+              <Default Text="Reçu {0}"/>
+            </Subject>
+            <Message Text="Un message">
+              <Description Text="Saisir un message pour le client"/>
+              <Default Text="Cher client,\n\nTrouvez le reçu ci-joint.\n\nDate du reçu : {0}\nTotal : {1}"/>
+            </Message>
+            <CopySelf Text="Envoyer une copie à moi-même"/>
+            <Error>
+              <EmailFormat Text="L'adresse e-mail n'est pas correctement formatée.\nVeuillez vérifier l'adresse e-mail et réessayer."/>
+            </Error>
+          </Recipient>
+          <Sending Text="Envoi de l'e-mail... Veuillez patienter..."/>
+          <Sent Text="Reçu envoyé à {0}"/>
+        </Email>
+        <Hide Text="Ne plus montrer ça"/>
+      </Dialog>
+    </Print>
+    <Products>
+      <Search Text="Rechercher">
+        <Name Text="Nom du produit">
+          <Tooltip Text="Rechercher un produit par nom"/>
+          <NotFound Text="Aucun résultat pour &amp;quot;{0}&amp;quot;">
+            <Info Text="Veuillez vérifier vos paramètres de recherche et réessayer"/>
+          </NotFound>
+        </Name>
+        <Barcode Text="code à barre">
+          <Tooltip Text="Rechercher un produit par code-barres"/>
+          <NotFound Text="Code-barres introuvable"/>
+        </Barcode>
+        <Code Text="Code produit">
+          <Tooltip Text="Rechercher un produit par code"/>
+          <NotFound Text="Code non trouvé"/>
+        </Code>
+        <NoItems Text="Aucun produit sélectionné">
+          <Info Text="Rechercher un produit par nom ou code pour continuer"/>
+        </NoItems>
+        <Selection>
+          <Price Text="Prix"/>
+          <Description Text="La description"/>
+        </Selection>
+        <NoResults Text="Aucun résultat"/>
+      </Search>
+      <NoProducts Text="Aucun produit disponible">
+        <Info Text="S'il vous plaît, ajoutez des produits ou fixez le prix de vente à ceux existants pour continuer"/>
+      </NoProducts>
+    </Products>
+    <Lock Text="Fermer à clé"/>
+    <Unlock Text="Ouvrir"/>
+    <Item>
+      <Void>
+        <Authorization>
+          <Title Text="Veuillez saisir le mot de passe pour annuler l'article sélectionné"/>
+        </Authorization>
+      </Void>
+      <ChangePrice>
+        <Minimum Text="Valeur minimale : {0}"/>
+      </ChangePrice>
+    </Item>
+    <QuickPayment Text="Paiement rapide">
+      <Confirmation Text="Vous avez sélectionné &amp;quot;{0}&amp;quot; comme type de paiement pour la vente en cours.\n\nVoulez-vous continuer à utiliser le type de paiement sélectionné ?"/>
+    </QuickPayment>
+    <Discount Text="Rabais">
+      <Authorization Text="Veuillez entrer le mot de passe pour appliquer les réductions"/>
+      <Cart>
+        <Invalid Text="Remise panier invalide">
+          <GreaterThenTotal Text="Le total avec les remises ne peut pas être supérieur\ntau total de la commande."/>
+        </Invalid>
+        <Cleared Text="Remise sur le panier effacée !">
+          <Info Text="Un total non valide a été détecté et la remise a été supprimée de la commande.\n\nVeuillez vérifier vos articles et appliquer à nouveau une remise valide avant de procéder au paiement."/>
+        </Cleared>
+      </Cart>
+      <Item>
+        <NotSelected Text="L'article n'est pas sélectionné.\nPour appliquer une remise à un seul article, sélectionnez-en un dans la liste des ventes avant d'ouvrir cette boîte de dialogue"/>
+        <Invalid Text="Remise sur l'article non valide">
+          <GreaterThenTotal Text="Le montant fixe ne peut pas être supérieur\ntau total de l'article"/>
+        </Invalid>
+        <Cleared Text="Remise sur l'article effacée">
+          <Info Text="Le total de l'article non valide a été détecté et la remise précédemment appliquée a été supprimée.\n\nVeuillez vérifier si des remises doivent être appliquées à cet article avant de procéder au paiement."/>
+        </Cleared>
+      </Item>
+    </Discount>
+  </Order>
+  <Closing Text="Fin de la journée">
+    <Users Text="Opérations ouvertes">
+      <User>
+        <Total Text="LE TOTAL:"/>
+      </User>
+      <Summary Text="Opérations ouvertes"/>
+      <NoReports Text="Aucune transaction ouverte"/>
+    </Users>
+    <Option Text="Sélectionnez l'option de retrait">
+      <NotSelected Text="Option de retrait non sélectionnée">
+        <Info Text="Choisissez l'une des options ci-dessus pour continuer"/>
+      </NotSelected>
+    </Option>
+    <User Text="Encaisser">
+      <Completed Text="{0} a été encaissé avec succès."/>
+    </User>
+    <Shift Text="Encaisser tous les utilisateurs">
+      <Closed Text="Tous les utilisateurs ont encaissé avec succès"/>
+    </Shift>
+    <BusinessDay Text="Fermer le registre">
+      <Income Text="Jour total"/>
+      <Closed Text="Inscription fermée avec succès"/>
+      <Report Text="RAPPORT"/>
+      <CashIn Text="Encaisser"/>
+      <CashOut Text="Encaisser"/>
+    </BusinessDay>
+    <Error>
+      <OpenOrders Text="Commandes ouvertes">
+        <Users Text="Il y a des utilisateurs avec des commandes ouvertes !\nVous devez fermer toutes les commandes avant le jour de fermeture."/>
+      </OpenOrders>
+    </Error>
+    <Print>
+      <User>
+        <Report>
+          <Total Text="MONTANT TOTAL"/>
+          <User Text="Utilisateur">
+            <ClosedBy Text="Reçu"/>
+          </User>
+          <Header Text="ENCAISSEMENT PAR L'UTILISATEUR"/>
+        </Report>
+      </User>
+      <DayClose>
+        <Report>
+          <Header Text="JOUR DE FERMETURE"/>
+          <User>
+            <Total Text="LE TOTAL"/>
+          </User>
+          <Summary Text="RÉSUMÉ"/>
+          <Total Text="LE TOTAL"/>
+        </Report>
+      </DayClose>
+    </Print>
+    <History Text="Histoire">
+      <Info Text="Utilisez la liste ci-dessous pour sélectionner et imprimer une copie de tout rapport Z précédemment généré."/>
+      <List>
+        <Reports Text="Rapports"/>
+        <Number Text="Nombre"/>
+        <Date Text="Date"/>
+      </List>
+      <Print Text="Imprimer le rapport sélectionné">
+        <Unsupported Text="Opération non prise en charge"/>
+      </Print>
+    </History>
+  </Closing>
+  <User Text="Utilisateur">
+    <Profile Text="Informations utilisateur">
+      <Info Text="Profil"/>
+      <Edit Text="Changer de profil ou de mot de passe"/>
+      <Data>
+        <FirstName Text="Prénom"/>
+        <LastName Text="Nom de famille"/>
+        <Email Text="E-mail"/>
+        <Password Text="Mot de passe">
+          <Change Text="Changer le mot de passe">
+            <Password Text="Mot de passe"/>
+            <Confirm Text="Confirmez le mot de passe"/>
+            <ConfirmationFailed Text="Le champ pour le mot de passe et le mot de passe de confirmation ne correspondent pas.\nVérifiez le mot de passe et réessayez."/>
+            <InvalidPassword Text="Le mot de passe est déjà utilisé. Veuillez utiliser un mot de passe différent."/>
+          </Change>
+        </Password>
+        <Saved Text="Profil modifié avec succès"/>
+      </Data>
+      <ShiftReport Text="Rapport d'utilisateur">
+        <Report Text="Rapport d'utilisateur">
+          <NoData Text="Aucune transaction ouverte"/>
+          <Total Text="LE TOTAL"/>
+        </Report>
+        <ClockOut Text="Encaisser"/>
+      </ShiftReport>
+    </Profile>
+  </User>
+  <Security>
+    <Authorize Text="Authentification d'utilisateur"/>
+    <Level Text="Niveau d'accès">
+      <Change Text="Modifier le niveau d'accès pour l'action sélectionnée">
+        <AccessDenied Text="Vous ne disposez pas des privilèges suffisants pour modifier le niveau d'accès pour cette opération.\n\nLe niveau d'accès peut être ajusté par l'utilisateur avec le niveau d'accès nécessaire pour effectuer l'opération sélectionnée."/>
+      </Change>
+    </Level>
+    <AccessDenied Text="Accès refusé">
+      <Info Text="Vous ne disposez pas des privilèges suffisants pour l'opération sélectionnée."/>
+    </AccessDenied>
+  </Security>
+  <Payment>
+    <Details>
+      <Summary Text="Articles"/>
+      <Actions Text="Actions">
+        <ShowItems Text="Afficher les éléments"/>
+      </Actions>
+      <Discount Text="Rabais">
+        <Options Text="Options de remise">
+          <DisallowedItems Text="Il y a des articles qui ne peuvent pas être directement affectés à une remise."/>
+        </Options>
+        <Type>
+          <Percent Text="Appliquer la remise en pourcentage"/>
+          <Fixed Text="Appliquer la remise comme montant fixe"/>
+        </Type>
+        <Target>
+          <Item Text="Remise sur l'article">
+            <NotSelected Text="Aucun article sélectionné.\nVeuillez sélectionner l'article sur la gauche pour appliquer une remise."/>
+            <NotAllowed Text="La remise n'est pas autorisée pour les articles annulés"/>
+            <Info Text="Appliquer la remise à &amp;quot;{0}&amp;quot;"/>
+          </Item>
+          <Cart Text="Remise panier">
+            <Info Text="Appliquer une remise sur le panier"/>
+          </Cart>
+        </Target>
+        <Total Text="Le total:"/>
+        <Subtotal Text="Total:"/>
+        <TotalDiscount Text="Remise totale:"/>
+        <Clear Text="Effacer les remises">
+          <Completed Text="Toutes les remises supprimées"/>
+        </Clear>
+      </Discount>
+      <Split Text="Les manches">
+        <Rounds Text="Sélectionnez le tour pour le paiement">
+          <RoundNumber Text="Rond:"/>
+          <RoundTotal Text="Montant:"/>
+          <SelectAll Text="Tout sélectionner"/>
+          <SelectNone Text="Rejeter la totalité"/>
+        </Rounds>
+      </Split>
+      <Customer Text="Client"/>
+      <Total Text="Le total:"/>
+      <TotalWithoutDiscount Text="Total sans remise :"/>
+      <Money Text="Paiement">
+        <Paid Text="Payé:">
+          <Hint>
+            <TypeAmount Text="Tapez le montant payé"/>
+            <TapToChange Text="Appuyez ici pour saisir le montant payé"/>
+          </Hint>
+        </Paid>
+        <Change Text="Changer:"/>
+        <Balance Text="Équilibre:"/>
+      </Money>
+      <PaymentTypes Text="Type de paiement">
+        <Other Text="Paiements fractionnés"/>
+        <Invalid Text="Type de paiement non autorisé">
+          <Fiscal Text="Le type de paiement sélectionné contient une combinaison non valide de type de paiement fiscal et non fiscal.\n\nIl n'est pas permis de combiner les types de paiement fiscal et non fiscal."/>
+        </Invalid>
+      </PaymentTypes>
+      <NoItems Text="Pas d'objet "/>
+    </Details>
+    <NoPaymentSelected Text="Type de paiement non sélectionné"/>
+    <Add Text="Ajouter un type de paiement">
+      <Info Text="Choisissez les types de paiement et les montants requis pour la vente en cours"/>
+      <Amount Text="Montant du paiement &amp;quot;{0}&amp;quot;"/>
+    </Add>
+    <Selected Text="Type de paiement sélectionné"/>
+    <Customer>
+      <Required Text="Client requis">
+        <Info Text="Le type de paiement &amp;quot;{0}&amp;quot; nécessite que le client soit sélectionné. Veuillez sélectionner un client pour continuer."/>
+      </Required>
+    </Customer>
+    <PaymentTypes>
+      <Validation>
+        <Change>
+          <Missing Text="Montant incorrect">
+            <Info Text="Ce type de paiement ne permet pas le changement. Saisissez le montant correct ou sélectionnez un autre type de paiement."/>
+          </Missing>
+        </Change>
+      </Validation>
+    </PaymentTypes>
+  </Payment>
+  <Customer>
+    <Search Text="Rechercher un client">
+      <Name Text="Nom"/>
+      <PIN Text="Numéro d'identification fiscale"/>
+      <LoyaltyCard Text="Carte de fidélité"/>
+      <Email Text="E-mail"/>
+      <PhoneNumber Text="Numéro de téléphone"/>
+    </Search>
+    <Selection Text="Client sélectionné">
+      <Details>
+        <PIN Text="Numéro d'identification fiscale:"/>
+        <Address Text="Adresse:"/>
+        <Email Text="E-mail:"/>
+        <PhoneNumber Text="Numéro de téléphone:"/>
+      </Details>
+      <None Text="Client non sélectionné">
+        <Info Text="Sélectionnez le client dans la liste"/>
+      </None>
+      <Clear Text="Effacer le client sélectionné">
+        <Completed Text="Client sélectionné supprimé"/>
+      </Clear>
+    </Selection>
+    <New Text="Nouveau client">
+      <Add Text="Ajouter un nouveau client"/>
+      <Name Text="Nom"/>
+      <TaxNumber Text="Numéro d'identification fiscale"/>
+      <Address Text="Adresse"/>
+      <City Text="Ville"/>
+      <PostalCode Text="code postal"/>
+      <Country Text="État"/>
+      <PhoneNumber Text="Numéro de téléphone"/>
+      <Email Text="E-mail"/>
+    </New>
+  </Customer>
+  <Navigation>
+    <Back>
+      <NotAllowed Text="L'opération sélectionnée n'est pas autorisée."/>
+    </Back>
+  </Navigation>
+  <FloorPlans>
+    <Options Text="Options">
+      <Design Text="Plan d'étage / réglages de la table">
+        <Grid>
+          <Show Text="Afficher la grille"/>
+          <SnapToGrid Text="Aligner sur la grille"/>
+          <Size Text="Taille de la grille"/>
+        </Grid>
+        <FloorPlan>
+          <Add Text="Ajouter un nouveau plan d'étage"/>
+          <Delete Text="Supprimer le plan d'étage"/>
+          <Rename Text="Renommer le plan d'étage"/>
+          <Name Text="Nom"/>
+        </FloorPlan>
+        <Table>
+          <Add Text="Ajouter un tableau"/>
+          <Delete Text="Supprimer la table sélectionnée"/>
+          <Name Text="Nom"/>
+          <Height Text="Hauteur"/>
+          <Width Text="Largeur"/>
+          <Size Text="TAILLE"/>
+        </Table>
+      </Design>
+      <View>
+        <Orders Text="Afficher les commandes">
+          <Title Text="Commandes ouvertes "/>
+          <Order>
+            <Number Text="Numéro de commande"/>
+            <Total Text="Le total"/>
+          </Order>
+          <NoOrders Text="Il n'y a pas de commandes ouvertes. Créer une nouvelle commande en utilisant le plan d'étage."/>
+        </Orders>
+        <FloorPlans Text="Afficher les plans d'étage"/>
+      </View>
+      <NoSelection Text="Continuer sans sélection"/>
+    </Options>
+    <Save>
+      <Success Text="Les modifications ont bien été enregistrées."/>
+      <Error Text="Une erreur se produit lors de l'enregistrement\nLes données ne sont pas conservées.\nMessage système : {0}">
+        <Duplicates Text="Noms de table en double trouvés.\n\n{0}\n\nLes noms de table doivent être uniques. Veuillez corriger les noms de table et réessayer.">
+          <Title Text="Doublons trouvés"/>
+        </Duplicates>
+      </Error>
+    </Save>
+    <Table>
+      <Unavailable Text="La table &amp;quot;{0}&amp;quot; est prise par {1}. Si vous continuez, vous créerez une commande distincte sur la même table.\n\nVoulez-vous continuer malgré tout ?">
+        <Title Text="Tableau déjà pris"/>
+      </Unavailable>
+    </Table>
+  </FloorPlans>
+  <Settings Text="Paramètres">
+    <Basic Text="Paramètres de base">
+      <Language Text="Langue"/>
+      <Style Text="Style d'application">
+        <ColorScheme Text="Schéma de couleur"/>
+      </Style>
+      <Layout Text="Mise en page">
+        <TouchScreen Text="Visuel"/>
+        <Keyboard Text="Standard"/>
+      </Layout>
+      <Zoom Text="Zoom"/>
+      <VirtualKeyboard Text="Activer le clavier virtuel"/>
+      <ProductSearch>
+        <Barcode Text="code à barre"/>
+        <Code Text="Code"/>
+        <Name Text="Nom"/>
+      </ProductSearch>
+      <ColorScheme>
+        <Dark Text="Sombre"/>
+        <Light Text="Lumière"/>
+      </ColorScheme>
+      <NotificationPosition>
+        <Top Text="Haut"/>
+        <Bottom Text="Bas"/>
+      </NotificationPosition>
+      <Notifications Text="messages">
+        <ShowClose Text="Afficher le bouton &amp;quot;Fermer&amp;quot;"/>
+        <ClickToClose Text="Cliquez pour fermer"/>
+        <SlideIn Text="Glisser dans"/>
+        <Duration Text="Durée du message (sec.)"/>
+        <Position Text="Positionner"/>
+      </Notifications>
+      <StartingCash Text="Afficher l'encaissement au début de l'application"/>
+      <BusinessDay Text="Jour ouvrable">
+        <SelecBusinessDay Text="Sélectionnez le jour ouvrable au début de l'application"/>
+      </BusinessDay>
+      <ButtonBar Text="Barre de boutons">
+        <Info Text="Sélectionnez les actions à afficher dans la barre de boutons">
+          <VisualLayoutOnly Text="Applicable pour la mise en page &amp;quot;Visuel&amp;quot; uniquement"/>
+        </Info>
+        <IsCommentVisible Text="Commenter"/>
+        <IsDiscountVisible Text="Rabais"/>
+        <IsNewSaleVisible Text="Nouvelle vente"/>
+        <IsRefundVisible Text="Remboursement"/>
+        <IsSearchVisible Text="Rechercher"/>
+        <IsTransferVisible Text="Transfert"/>
+      </ButtonBar>
+    </Basic>
+    <Order Text="Paiement de la commande">
+      <Standard Text="Opérations de base">
+        <AutoOrderNumber Text="Utiliser des plans d'étage"/>
+        <PlaySound Text="Des sons">
+          <SoundSettings>
+            <Navigation Text="Son de navigation"/>
+            <ItemAdded Text="Son ajouté à l'article"/>
+            <ItemNotFound Text="Élément introuvable"/>
+            <Show Text="Afficher les options de son"/>
+            <Hide Text="Masquer les options de son"/>
+          </SoundSettings>
+        </PlaySound>
+        <ProductGrid Text="Nombre ou lignes/colonnes"/>
+      </Standard>
+      <Users Text="Utilisateurs">
+        <SingleUser Text="Utilisateur unique"/>
+      </Users>
+      <Products Text="Articles">
+        <DefaultQuantity Text="Quantité par défaut"/>
+        <DefaultSearch Text="Recherche par défaut">
+          <Options Text="Afficher les options de recherche"/>
+        </DefaultSearch>
+        <DefaultDiscountType Text="Type de remise par défaut">
+          <Percent Text="Pourcentage"/>
+          <Fixed Text="Fixé"/>
+        </DefaultDiscountType>
+        <RowPerItem Text="Ligne séparée pour chaque élément"/>
+      </Products>
+      <Payment Text="Paiement">
+        <ShowSummary Text="Afficher les articles sur le formulaire de paiement"/>
+        <FixedRows Text="Nombre de lignes de type de paiement"/>
+        <IsSingleItemDiscountAllowed Text="Remise sur un seul article autorisée"/>
+        <QuickPaymentConfirmation Text="Confirmation de paiement des touches de raccourci"/>
+        <ShowPrintReceiptDialog Text="Afficher la boîte de dialogue d'impression du reçu"/>
+        <DefaultDueDate Text="Date d'échéance par défaut">
+          <Days Text="journées"/>
+        </DefaultDueDate>
+        <MergeItemsOnPayment Text="Fusionner les articles à la réception"/>
+      </Payment>
+      <Advanced>
+        <Show Text="Afficher les paramètres avancés"/>
+        <Hide Text="Masquer les paramètres avancés"/>
+        <ResetOrderNumber Text="Réinitialiser le numéro de commande à la clôture du jour"/>
+        <ShowAllOccupiedTables Text="Afficher toutes les tables occupées dans le plan d'étage"/>
+      </Advanced>
+    </Order>
+    <Products Text="Paramètres des produits">
+      <TaxInclusivePrice Text="Afficher et imprimer des articles avec taxes incluses">
+        <Tooltip Text="S'ils sont sélectionnés, les articles seront affichés dans les ventes et imprimés sur un reçu avec le prix TTC."/>
+      </TaxInclusivePrice>
+      <DiscountApplyRule Text="Règle d'application de la remise">
+        <BeforeTax Text="Avant impôt"/>
+        <AfterTax Text="Après impôts"/>
+      </DiscountApplyRule>
+    </Products>
+    <Print Text="Options d'impression">
+      <PrinterSelection Text="Sélection de l'imprimante">
+        <Tour>
+          <Title Text="Ajuster les paramètres de l'imprimante"/>
+          <Content Text="Cliquez sur le bouton &amp;quot;Paramètres de l'imprimante&amp;quot;\npour configurer et personnaliser votre imprimante"/>
+        </Tour>
+      </PrinterSelection>
+      <Printers>
+        <KitchenTicket Text="Imprimante de cuisine">
+          <Operation Text="Imprimer le ticket de cuisine"/>
+        </KitchenTicket>
+        <Service Text="Imprimante de service">
+          <Operation Text="Imprimer les messages de service"/>
+        </Service>
+        <Estimate Text="Imprimante de vente verrouillée">
+          <Operation Text="Imprimer la vente verrouillée"/>
+        </Estimate>
+        <OrderSummary Text="Ordre d'impression"/>
+      </Printers>
+      <PrinterOptions Text="Paramètres de l'imprimante">
+        <Tooltip Text="Ajuster les paramètres de l'imprimante"/>
+        <PrinterType Text="Type d'imprimante">
+          <A4 Text="A4"/>
+          <EscPos Text="ESC/POS"/>
+          <POS58 Text="POS 58"/>
+          <POS58Rtl Text="POS 58 RTL"/>
+          <POS80 Text="POS 80"/>
+          <POS80Rtl Text="POS 80 RTL"/>
+        </PrinterType>
+        <NumberOfCopies Text="Nombre de copies"/>
+        <PaperWidth Text="Caractères par ligne"/>
+        <Header Text="Entête"/>
+        <Footer Text="Bas de page"/>
+        <FeedLines Text="Lignes d'alimentation"/>
+        <CutPaper Text="Papier découpé"/>
+        <PrintBitmap Text="Imprimer le bitmap"/>
+        <RichFormatting Text="Formatage riche"/>
+        <Alignment>
+          <Left Text="Alignez à gauche"/>
+          <Center Text="Aligner au centre"/>
+        </Alignment>
+        <Revert Text="Rétablir les changements">
+          <Completed Text="Paramètres précédemment enregistrés appliqués"/>
+        </Revert>
+        <PrintTestPage Text="Imprimer la page de test"/>
+        <Advanced Text="Avancée">
+          <CodePage Text="Page de codes"/>
+          <CharacterSet Text="Jeu de caractères">
+            <None Text="Aucun (par défaut de l'imprimante)"/>
+            <USA Text="Etats-Unis"/>
+            <France Text="France"/>
+            <Germany Text="Allemagne"/>
+            <UK Text="Royaume-Uni"/>
+            <DenmarkI Text="Danemark I"/>
+            <Sweden Text="Suède"/>
+            <Italy Text="Italie"/>
+            <SpainI Text="Espagne I"/>
+            <Japan Text="Japon"/>
+            <Norway Text="Norvège"/>
+            <DenmarkII Text="Danemark II"/>
+            <SpainII Text="Espagne II"/>
+            <LatinAmerica Text="l'Amérique latine"/>
+            <Korea Text="Corée"/>
+            <SloveniaCroatia Text="Slovénie / Croatie"/>
+            <China Text="Chine"/>
+            <Vietnam Text="Viêt Nam"/>
+            <Arabia Text="Saoudite"/>
+          </CharacterSet>
+        </Advanced>
+        <Unavailable Text="Les options supplémentaires ne sont pas disponibles pour le type d'imprimante sélectionné.\nPour voir les options d'imprimante supplémentaires, veuillez sélectionner un type d'imprimante différent.">
+          <Info Text="En savoir plus sur la sélection du type d'imprimante et la configuration de l'imprimante de reçus."/>
+        </Unavailable>
+        <Margin Text="Marges (en millimètres)">
+          <Top Text="Haut"/>
+          <Right Text="Droite"/>
+          <Bottom Text="Bas"/>
+          <Left Text="La gauche"/>
+        </Margin>
+        <PrintBarcode Text="Imprimer le code-barres"/>
+        <Font Text="Paramètres de police">
+          <Family Text="Famille de polices"/>
+          <SizePercent Text="Taille de police"/>
+          <Reset Text="Réinitialise la famille de polices par défaut et définit la taille de la police sur 100%"/>
+        </Font>
+      </PrinterOptions>
+      <Templates Text="Modèles d'impression">
+        <Font Text="Police de caractère">
+          <Info Text="La police sélectionnée ici sera utilisée dans les factures, les rapports et autres modèles d'impression. Si aucune n'est sélectionnée, la police par défaut sera utilisée."/>
+        </Font>
+      </Templates>
+    </Print>
+    <AddOns Text="Modules enregistrés">
+      <Modules Text="Modules"/>
+      <Plugins Text="Plugins"/>
+    </AddOns>
+    <Barcode Text="Paramètres de code-barres">
+      <VariableMeasureBarcode Text="Balances code-barres">
+        <Enabled Text="Activer le code-barres de la balance"/>
+        <Prefix Text="Deux premiers chiffres / préfixe"/>
+        <ProductCodeLength Text="Nombre de chiffres pour le code produit "/>
+        <DecimalPlaces Text="Nombre de décimales"/>
+        <TrimZeros Text="Supprimer les zéros du code produit (rogner les zéros)"/>
+        <IsUsingPriceBarcode Text="L'échelle imprime le prix au lieu de la quantité">
+          <Info Text="Certaines balances impriment le prix total au lieu de la quantité mesurée. Si cette option est activée, la quantité sera basée sur le prix du produit et le montant total de la balance."/>
+        </IsUsingPriceBarcode>
+      </VariableMeasureBarcode>
+    </Barcode>
+    <Email Text="Paramètres de messagerie">
+      <Host Text="Hôte"/>
+      <Port Text="Port"/>
+      <EmailAddress Text="Adresse e-mail"/>
+      <DisplayName Text="Afficher un nom"/>
+      <Password Text="Mot de passe"/>
+      <SSL Text="SSL activé"/>
+      <Defaults Text="Valeurs d'e-mail par défaut">
+        <Subject Text="Matière"/>
+        <Message Text="Un message"/>
+        <Description Text="Si vous décidez de laisser ces champs vides, l'objet et le message générés automatiquement pour le client seront utilisés. Vous pouvez les modifier avant l'envoi du message."/>
+        <Bcc Text="Destinataires en Cci"/>
+      </Defaults>
+    </Email>
+    <About Text="À propos">
+      <HelpCenter Text="Ouvrir le centre d'aide">
+        <Info Text="Allez sur help.aronium.com pour ouvrir une demande d'assistance."/>
+      </HelpCenter>
+      <ApplicationDirectory Text="Répertoire des données d'application">
+        <Info Text="Emplacement où les paramètres d'application, les fichiers journaux et d'autres éléments liés à l'application sont stockés."/>
+        <Open Text="Ouvrir le répertoire des données de l'application"/>
+      </ApplicationDirectory>
+      <Database Text="Base de données">
+        <Open Text="Ouvrir l'emplacement de la base de données"/>
+        <Backup Text="Base de données de sauvegarde">
+          <Success Text="La sauvegarde de la base de données s'est terminée avec succès.">
+            <Path Text="Chemin : {0}"/>
+            <UnableToCopy Text="Sauvegarde créée à l'emplacement par défaut. Impossible de copier le fichier de sauvegarde dans le répertoire sélectionné."/>
+          </Success>
+          <Error Text="Erreur lors de la création de la sauvegarde de la base de données.\nConsultez les journaux pour plus de détails."/>
+        </Backup>
+      </Database>
+      <Update>
+        <AutoUpdate Text="Mise à jour automatique"/>
+        <SendUsageData Text="Aidez-nous à nous améliorer en envoyant des données d'utilisation anonymes"/>
+        <Check Text="Vérifier les mises à jour">
+          <Checking Text="Recherche de mises à jour... Veuillez patienter..."/>
+          <Downloading Text="Téléchargement de la mise à jour... Veuillez patienter..."/>
+          <UpToDate Text="Aronium est à jour."/>
+          <Available Text="Une nouvelle version est disponible.">
+            <Run Text="Cliquez ici pour installer maintenant."/>
+          </Available>
+          <Error>
+            <NoConnection Text="Impossible de se connecter au serveur.\nVeuillez vérifier votre connexion Internet et réessayer."/>
+          </Error>
+        </Check>
+        <Ready Text="La mise à jour est disponible">
+          <Install Text="Cliquez ici pour installer la nouvelle version"/>
+          <Description Text="La nouvelle version est prête à être installée.\nPour plus d'informations, visitez la page des notes de version en cliquant sur &amp;quot;Quoi de neuf ?&amp;quot; bouton ci-dessous.">
+            <Install Text="Cliquez sur le bouton &amp;quot;Installer&amp;quot; pour installer les dernières mises à jour."/>
+          </Description>
+          <Versions>
+            <Current Text="Version actuelle:"/>
+            <New Text="Nouvelle version:"/>
+          </Versions>
+          <Ignore Text="Ignorer cette mise à jour"/>
+          <ReleaseNotes Text="Quoi de neuf?"/>
+          <Postpone Text="Pas maintenant"/>
+          <Run Text="Installer"/>
+        </Ready>
+      </Update>
+      <Account Text="Compte">
+        <Email Text="Entrez votre adresse email"/>
+        <Change Text="Changer"/>
+      </Account>
+      <TermsOfUse Text="Conditions d'utilisation">
+        <Info Text="Lisez nos &amp;quot;Conditions d'utilisation&amp;quot; en ligne"/>
+      </TermsOfUse>
+    </About>
+    <Authorization>
+      <Title Text="Veuillez saisir le mot de passe pour accéder aux paramètres de l'application"/>
+    </Authorization>
+    <Database Text="Base de données">
+      <AutoBackup Text="Sauvegarde automatique">
+        <Enabled Text="Activer la sauvegarde automatique"/>
+        <BackupOnStart Text="Base de données de sauvegarde au démarrage de l'application"/>
+        <BackupOnClose Text="Base de données de sauvegarde à la fermeture de l'application"/>
+        <DirectoryPath Text="Emplacement de sauvegarde">
+          <Choose Text="Choisissez l'emplacement de sauvegarde"/>
+          <Info Text="Sélectionnez votre emplacement de sauvegarde. Les fichiers de sauvegarde automatique seront enregistrés dans le répertoire sélectionné."/>
+        </DirectoryPath>
+        <RemoveOldFiles Text="Supprimer les anciens fichiers de sauvegarde">
+          <DaysToKeep Text="Nombre de jours pour conserver les anciens fichiers de sauvegarde"/>
+        </RemoveOldFiles>
+      </AutoBackup>
+    </Database>
+    <RestartRequired Text="Aronium doit être redémarré pour que ces changements prennent effet.">
+      <Title Text="Redémarrage requis"/>
+    </RestartRequired>
+  </Settings>
+  <Document>
+    <Category>
+      <Expenses Text="Dépenses">
+        <Purchase Text="Acheter"/>
+        <StockReturn Text="Retour de stock"/>
+      </Expenses>
+      <Inventory Text="Inventaire">
+        <InventoryCount Text="L'inventaire"/>
+      </Inventory>
+      <Loss Text="Perte">
+        <LossAndDamage Text="Perte et dommages"/>
+      </Loss>
+      <Sales Text="Ventes">
+        <Sales Text="Ventes"/>
+        <Refund Text="Remboursement"/>
+        <Proforma Text="Proforma"/>
+      </Sales>
+    </Category>
+    <Create>
+      <Error Text="Une erreur s'est produite lors de la création du document.\nVeuillez réessayer."/>
+    </Create>
+  </Document>
+  <Invoices Text="Afficher l'historique des ventes">
+    <Title Text="Historique des ventes"/>
+    <Documents Text="Documents">
+      <Customer Text="Client">
+        <Change Text="Changer de client">
+          <Success Text="Le client a changé avec succès."/>
+        </Change>
+      </Customer>
+      <CashRegister>
+        <All Text="Toutes les caisses enregistreuses"/>
+        <Select Text="Sélectionnez la caisse enregistreuse"/>
+      </CashRegister>
+      <Print Text="Imprimer">
+        <CashReceipt Text="Reçu">
+          <PrinterNotFound Text="L'imprimante de service n'est pas sélectionnée ou désactivée. Vérifiez les paramètres de l'imprimante et réessayez."/>
+          <Address Text="Adresse"/>
+          <VatNumber Text="Numéro d'identification fiscale"/>
+          <Date Text="Date"/>
+          <ReceiptNumber Text="Numéro de reçu"/>
+          <Customer Text="Client"/>
+          <Total Text="Le total"/>
+          <Tax Text="Impôt"/>
+          <TotalAmount Text="LE TOTAL"/>
+          <FiscalReceiptNumber Text="Numéro de reçu fiscal"/>
+          <Signature Text="Signification"/>
+          <Stamp Text="PS"/>
+          <Authorization>
+            <Title Text="Veuillez entrer le mot de passe pour imprimer le reçu"/>
+          </Authorization>
+        </CashReceipt>
+        <Pdf Text="Enregistrer en PDF">
+          <Success Text="Document &amp;quot;{0}&amp;quot; enregistré"/>
+        </Pdf>
+        <Error Text="Erreur d'impression du document">
+          <NoService Text="Service d'impression non enregistré"/>
+        </Error>
+        <Refund Text="Remboursement"/>
+        <Preview Text="Aperçu avant impression"/>
+      </Print>
+      <Delete Text="Effacer">
+        <Confirmation>
+          <Title Text="Supprimer le document"/>
+          <Message Text="Voulez-vous vraiment supprimer le document &amp;quot;{0}&amp;quot; ?"/>
+        </Confirmation>
+        <Error Text="Une erreur s'est produite lors de la tentative de suppression du document. Veuillez réessayer"/>
+        <Unauthorized Text="Vous n'êtes pas autorisé à supprimer des documents."/>
+      </Delete>
+      <List Text="Documents">
+        <Document>
+          <Number Text="Nombre"/>
+          <DocumentType Text="Type de document"/>
+          <Warehouse Text="Entrepôt"/>
+          <Customer Text="Client">
+            <Refresh Text="Actualiser la liste des clients">
+              <Complete Text="Clients rechargés"/>
+            </Refresh>
+          </Customer>
+          <Vendor Text="Vendeur">
+            <Refresh Text="Actualiser la liste des fournisseurs">
+              <Complete Text="Fournisseurs rechargés"/>
+            </Refresh>
+          </Vendor>
+          <ExternalDocument Text="Document externe"/>
+          <Date Text="Date"/>
+          <DueDate Text="Date d'échéance"/>
+          <StockDate Text="Date d'inventaire"/>
+          <DateCreated Text="Créé"/>
+          <DateUpdated Text="Mise à jour"/>
+          <CashRegister Text="PDV"/>
+          <OrderNumber Text="Numéro de commande"/>
+          <Warehouse Text="Entrepôt"/>
+          <User Text="Utilisateur"/>
+          <PaymentType Text="Type de paiement"/>
+          <Discount Text="Rabais"/>
+          <Paid Text="Payé"/>
+          <Unpaid Text="Non payé"/>
+          <Total Text="Le total">
+            <Summary>
+              <Subtotal Text="Total:"/>
+              <TotalBeforeTax Text="Total hors taxe:"/>
+              <Tax Text="Impôt:"/>
+              <Total Text="Le total:"/>
+              <Discount Text="Rabais:">
+                <DiscountApplyRule Text="Appliquer la remise avant ou après taxes.\nCette sélection sera utilisée pour les articles et les remises sur le panier.">
+                  <BeforeTax Text="Appliquer la remise avant taxes"/>
+                  <AfterTax Text="Appliquer la remise après impôt"/>
+                </DiscountApplyRule>
+                <DiscountType Text="Sélectionnez le type de remise">
+                  <Percent Text="Pourcentage de remise"/>
+                  <Fixed Text="Montant de la remise"/>
+                </DiscountType>
+              </Discount>
+            </Summary>
+          </Total>
+          <Payments Text="Paiements">
+            <Add Text="Ajouter un paiement"/>
+            <PaymentType Text="Type de paiement"/>
+            <Amount Text="Montant"/>
+            <Date Text="Date"/>
+            <NewPayment Text="Nouveau paiement"/>
+            <Delete Text="Supprimer le paiement">
+              <Confirmation Text="Voulez-vous vraiment supprimer le paiement &amp;quot;{0}&amp;quot; ?"/>
+            </Delete>
+            <Totals>
+              <PaymentsTotal Text="Total des paiements :"/>
+              <DocumentTotal Text="Total des documents :"/>
+            </Totals>
+          </Payments>
+          <Items Text="Éléments de document">
+            <Item>
+              <ProductCode Text="Code"/>
+              <Product Text="Nom"/>
+              <MeasurementUnit Text="Unité de mesure"/>
+              <Quantity Text="Quantité"/>
+              <PriceNoTax Text="Prix ​​hors taxes"/>
+              <Price Text="Prix"/>
+              <Tax Text="Impôt">
+                <Add Text="Ajouter des taxes">
+                  <Tooltip Text="Ajouter la taxe à cet article"/>
+                </Add>
+                <Remove>
+                  <Tooltip Text="Supprimer la taxe de cet article"/>
+                </Remove>
+              </Tax>
+              <Discount Text="Rabais">
+                <DiscountType Text="Sélectionnez le type de remise">
+                  <Percent Text="Pourcentage de remise"/>
+                  <Fixed Text="Montant de la remise"/>
+                </DiscountType>
+                <DiscountApplyRule>
+                  <BeforeTax Text="avant impôt"/>
+                  <AfterTax Text="après impôts"/>
+                </DiscountApplyRule>
+              </Discount>
+              <TotalBeforeTax Text="total hors taxe"/>
+              <Total Text="Le total"/>
+              <TotalBeforeDiscount Text="Total avant remise"/>
+              <Error>
+                <Taxes Text="Taxes en double trouvées. Nom de taxe (&amp;quot;{0}&amp;quot;).\nVeuillez sélectionner des taxes valides et réessayer."/>
+              </Error>
+            </Item>
+            <Delete Text="Supprimer l'élément de document">
+              <Confirmation Text="Voulez-vous vraiment supprimer &amp;quot;{0}&amp;quot; ?"/>
+            </Delete>
+          </Items>
+          <Print>
+            <UnsavedChanges Text="Le document contient des modifications non enregistrées. Voulez-vous enregistrer les modifications avant l'impression ?">
+              <Title Text="Modifications non enregistrées"/>
+            </UnsavedChanges>
+          </Print>
+        </Document>
+      </List>
+      <Count Text="Nombre de documents :"/>
+      <Total Text="Montant total:"/>
+      <AllUsers Text="Afficher tous les utilisateurs"/>
+      <BulkActions Text="Opérations en vrac">
+        <Delete Text="Supprimer les documents sélectionnés">
+          <Confirmation>
+            <Title Text="Supprimer les documents sélectionnés"/>
+            <Message Text="Êtes-vous sûr de vouloir supprimer les documents sélectionnés ?"/>
+          </Confirmation>
+          <Message Text="Suppression des documents... Veuillez patienter..."/>
+        </Delete>
+        <UpdatePaidStatus>
+          <Message Text="Mise à jour du statut payé... Veuillez patienter..."/>
+        </UpdatePaidStatus>
+      </BulkActions>
+    </Documents>
+    <Authorization>
+      <Title Text="Veuillez saisir le mot de passe pour accéder à l'historique des ventes"/>
+    </Authorization>
+  </Invoices>
+  <Feedback Text="Retour">
+    <Title Text="Aidez-nous à améliorer Aronium"/>
+    <Description Text="Merci d'avoir pris le temps de nous faire une suggestion.\nVos commentaires nous aident à améliorer l'application Aronium.">
+      <Contact Text="N'hésitez pas à nous contacter à tout moment au"/>
+    </Description>
+    <Message>
+      <Name Text="Votre nom"/>
+      <Email Text="Adresse e-mail"/>
+      <Subject Text="Matière"/>
+      <Message Text="Un message"/>
+      <Rating Text="Note globale"/>
+    </Message>
+    <Send Text="Envoyer des commentaires"/>
+    <Confirmation>
+      <Title Text="Merci!"/>
+      <Message Text="Vos commentaires sont envoyés. Nous l'utiliserons pour améliorer Aronium."/>
+    </Confirmation>
+  </Feedback>
+  <Security>
+    <Key>
+      <Management Text="La gestion">
+        <Description Text="Contrôle l'accès à la section de gestion"/>
+      </Management>
+      <Settings Text="Paramètres">
+        <Description Text="Contrôle l'accès aux paramètres"/>
+      </Settings>
+      <VoidOrder Text="Ordre annulé">
+        <Description Text="Contrôle si l'utilisateur est autorisé à annuler la commande complète"/>
+      </VoidOrder>
+      <VoidItem Text="Objet annulé">
+        <Description Text="Contrôle si l'utilisateur est autorisé à annuler un seul article dans l'ordre ouvert"/>
+      </VoidItem>
+      <LockSale Text="Vente de serrure"/>
+      <UnlockSale Text="Débloquer la vente"/>
+      <SplitOrder Text="Ordre fractionné">
+        <Description Text="Permet à l'utilisateur de transférer tout ou partie d'une commande à un autre utilisateur ou table (numéro de commande)"/>
+      </SplitOrder>
+      <Discount Text="Appliquer la remise"/>
+      <DeleteDocument Text="Supprimer le document"/>
+      <ClosingDay Text="Fin de la journée">
+        <Description Text="Contrôle l'accès à la section jour de fermeture"/>
+      </ClosingDay>
+      <Refund Text="Remboursement">
+        <Description Text="Permet à l'utilisateur de rembourser une vente précédemment effectuée.\nCeci créera un nouveau document &amp;quot;Remboursement&amp;quot; et remettra automatiquement les quantités en stock."/>
+      </Refund>
+      <OpenOrders Text="Voir toutes les commandes ouvertes">
+        <Description Text="Contrôle si l'utilisateur est autorisé à voir toutes les commandes ouvertes.\nCette option est disponible avec les plans d'étage activés."/>
+      </OpenOrders>
+      <SalesHistory Text="Afficher l'historique des ventes">
+        <Receipt Text="Réimprimer le reçu">
+          <Description Text="Contrôle si l'utilisateur est autorisé à imprimer le reçu à partir de l'historique des ventes."/>
+        </Receipt>
+      </SalesHistory>
+      <StartingCash Text="Cash de départ">
+        <Description Text="Contrôle l'accès à la section de caisse de départ"/>
+      </StartingCash>
+      <UserProfile Text="Profil de l'utilisateur"/>
+    </Key>
+  </Security>
+  <Guide>
+    <Menu>
+      <Title Text="Ouvrir le menu principal"/>
+      <Content Text="Cliquez ici pour ouvrir le menu principal et accéder à la section de gestion"/>
+    </Menu>
+    <Layout>
+      <SearchBox Text="Recherchez des produits par nom, code-barres ou code.">
+        <Title Text="Recherche de produit"/>
+      </SearchBox>
+    </Layout>
+    <Dismiss>
+      <Title Text="Ignorer la visite guidée"/>
+      <Confirmation Text="Voulez-vous vraiment masquer ces astuces ?"/>
+    </Dismiss>
+  </Guide>
+  <Layout>
+    <Visual>
+      <Item>
+        <Edit Text="Modifier l'apparence visuelle">
+          <Color Text="Couleur"/>
+          <Image Text="Image">
+            <Select Text="Sélectionnez l'image"/>
+            <Clear Text="Image claire"/>
+          </Image>
+        </Edit>
+      </Item>
+    </Visual>
+  </Layout>
+  <OpenOrders Text="Voir les ventes ouvertes">
+    <Total Text="MONTANT TOTAL"/>
+    <NoOrders Text="Pas de vente ouverte"/>
+    <Authorization>
+      <Title Text="Veuillez entrer le mot de passe pour accéder aux ventes ouvertes"/>
+    </Authorization>
+  </OpenOrders>
+  <StartingCash Text="Encaissement / Sortie">
+    <Type>
+      <CashIn Text="Ajouter de l'argent"/>
+      <CashOut Text="Retirer de l'argent"/>
+    </Type>
+    <Amount Text="Montant">
+      <Reason Text="La description">
+        <Tooltip Text="Saisissez la raison de l'ajout ou de la suppression d'espèces..."/>
+      </Reason>
+    </Amount>
+    <Hide Text="Ne plus afficher cela"/>
+    <Entries Text="Entrées de caisse">
+      <NoDescription Text="&lt;No description&gt;"/>
+      <NoEntries Text="Pas d'enregistrements"/>
+    </Entries>
+    <Saved Text="L'argent de départ a été économisé avec succès"/>
+  </StartingCash>
+  <Account>
+    <FirstName Text="Prénom"/>
+    <LastName Text="Nom de famille"/>
+    <LastName Text="Nom de famille"/>
+    <Email Text="E-mail"/>
+    <Password Text="Mot de passe">
+      <Confirmation Text="Confirmation mot de passe">
+        <Error Text="Le mot de passe et la confirmation du mot de passe doivent correspondre"/>
+      </Confirmation>
+    </Password>
+    <License>
+      <Info Text="Licence">
+        <Data Text="Données de licence">
+          <LicensedTo Text="Autorisé à"/>
+          <Email Text="E-mail"/>
+          <StoreId Text="Identifiant du magasin"/>
+          <Id Text="Identifiant de licence"/>
+        </Data>
+        <Products Text="Des produits">
+          <Id Text="Identifiant"/>
+          <Name Text="Nom"/>
+          <ValidUntil Text="Valable jusque"/>
+          <LicenseType Text="Type de licence"/>
+        </Products>
+        <NoLicense>
+          <Info Text="Visitez www.aronium.com pour en savoir plus sur les fonctionnalités premium"/>
+        </NoLicense>
+        <Refresh Text="Actualiser la licence">
+          <Success Text="Licence téléchargée avec succès."/>
+        </Refresh>
+        <Copy Text="Copier la licence dans un fichier"/>
+        <Load Text="Charger la licence à partir du fichier"/>
+        <UnlicensedProducts Text="Produits sans licence"/>
+      </Info>
+      <Login Text="Connectez-vous à votre compte">
+        <NotRegistered Text="Non enregistré?">
+          <SignUp Text="S'inscrire maintenant!"/>
+        </NotRegistered>
+        <SignIn Text="S'identifier"/>
+      </Login>
+      <Register Text="Enregistrer un nouveau compte">
+        <AlreadyRegistered Text="Déjà enregistré?">
+          <SignIn Text="Connectez vous maintenant!"/>
+        </AlreadyRegistered>
+        <CreateAccount Text="Créer un compte"/>
+        <Store Text="Créez votre boutique">
+          <Details Text="Prenons une minute pour configurer votre boutique.\nLes données de votre entreprise seront mises à jour et la licence sera générée automatiquement.">
+            <CompanyName Text="Nom de la compagnie"/>
+            <Address Text="Adresse"/>
+            <ZipCode Text="Code postal"/>
+            <TaxNumber Text="Numéro d'identification fiscale"/>
+            <City Text="Ville"/>
+            <Country Text="Pays"/>
+          </Details>
+          <Create Text="Créer un magasin et générer une licence"/>
+        </Store>
+        <Success Text="Compte créé avec succès"/>
+      </Register>
+      <SelectStore Text="Sélectionnez le magasin">
+        <Info Text="Sélectionnez un magasin dans la liste ci-dessous pour lequel vous souhaitez charger une licence.">
+          <Register Text="Une fois que vous avez sélectionné un magasin, il vous sera demandé d'enregistrer tous les produits sans licence sous la licence de ce magasin."/>
+        </Info>
+        <NoStores Text="Aucun magasin trouvé">
+          <Info Text="Il semble qu'il n'y ait aucun magasin associé au compte &amp;quot;{0}&amp;quot;. Afin d'activer votre licence, vous devez avoir une boutique qui lui est associée."/>
+          <Reload Text="Veuillez d'abord créer un magasin, puis cliquez sur le bouton &amp;quot;Actualiser&amp;quot; ci-dessous pour continuer."/>
+          <Add Text="Ouvrez My Aronium pour créer votre première boutique"/>
+        </NoStores>
+        <Successfull Text="Vous vous êtes connecté avec succès">
+          <Info Text="Si la licence existe pour le magasin sélectionné, elle sera automatiquement téléchargée"/>
+        </Successfull>
+      </SelectStore>
+      <StartTrial Text="Commencer procès">
+        <Info Text="Sélectionnez l'option ci-dessous pour commencer l'essai pour tous les produits sans licence"/>
+        <SelectedStore Text="Magasin sélectionné :">
+          <Change Text="Utiliser un autre magasin"/>
+        </SelectedStore>
+        <Now Text="Commencer l'essai maintenant"/>
+      </StartTrial>
+      <Load Text="Charger la licence à partir du fichier">
+        <Successful Text="Licence chargée avec succès"/>
+      </Load>
+      <InvalidLicense Text="Licence invalide ou manquante">
+        <Info Text="Il manque une licence valide à un ou plusieurs produits.">
+          <SignInOrLoadFromFile Text="Veuillez vous connecter à votre compte pour télécharger une licence ou charger une licence existante à partir d'un fichier."/>
+          <FollowInstructions Text="Veuillez suivre les instructions ci-dessous pour continuer."/>
+        </Info>
+        <Hide Text="Ne plus afficher cela pour ces produits"/>
+      </InvalidLicense>
+    </License>
+    <Switch Text="Connectez-vous avec un autre compte"/>
+    <SignOut Text="Déconnexion">
+      <Successful Text="Vous vous êtes déconnecté avec succès"/>
+    </SignOut>
+    <Error>
+      <ExistingAccount Text="L'utilisateur avec l'adresse e-mail spécifiée existe déjà."/>
+      <Unauthorized Text="Nom d'utilisateur ou mot de passe erroné. Veuillez vérifier vos informations d'identification et réessayer."/>
+    </Error>
+  </Account>
+  <Validations>
+    <Info Text="Voir plus de détails et comment résoudre ce problème sur">
+      <Community Text="notre communauté"/>
+      <Or Text="ou alors"/>
+      <ContactSupport Text="contactez notre support"/>
+    </Info>
+    <Cancel Text="Fermer l'application"/>
+    <Confirm Text="Je comprends, continuez avec le démarrage de l'application"/>
+    <Print>
+      <Warning>
+        <CustomTemplates Text="Nous avons détecté que vous utilisez des modèles de reçus ou de factures personnalisés. En raison des modifications apportées à la structure de la base de données dans cette version, ces modèles peuvent ne plus fonctionner.\nVous pourrez utiliser les modèles par défaut, de sorte que vos opérations quotidiennes ne sont pas bloquées.\n\nSi vous souhaitez toujours utiliser les anciens modèles, vous devez arrêter l'application démarrez maintenant et revenez à l'ancienne version.">
+          <Title Text="ATTENTION! LES MODÈLES D'IMPRESSION PERSONNALISÉS PEUVENT NE PAS FONCTIONNER !"/>
+        </CustomTemplates>
+      </Warning>
+    </Print>
+    <Refund>
+      <Invalid Text="Le remboursement n'est pas valide"/>
+    </Refund>
+  </Validations>
+  <Print>
+    <Error Text="Une erreur d'impression s'est produite">
+      <CustomTemplate Text="Une erreur dans le modèle personnalisé a été détectée !\nVeuillez contacter le support technique d'Aronium afin de résoudre les problèmes potentiels avec votre modèle d'impression personnalisé.">
+        <Continue Text="Souhaitez-vous continuer à imprimer en utilisant le modèle par défaut ?"/>
+      </CustomTemplate>
+    </Error>
+  </Print>
+</Language>
