@@ -1,5 +1,5 @@
 # Translatorium
-Généric language files translator for  [Aronium](aronium.com) 
+Generic language files translator for  [Aronium](aronium.com) 
 
 ## Usage
 
