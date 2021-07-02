@@ -13,7 +13,7 @@ Where:
 
 ## How it works
 
-This tool uses Google Translate via Google App Script to translate each sentence in the srcFile wich is just an XML file.
+This tool uses Google Translate via Google App Script to translate each "Text" attribute value in the srcFile.
 
 ## Observation
 
